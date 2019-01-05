@@ -331,21 +331,21 @@ const l10n = {
       'Поделитесь этим адресом для получения платежей. ' +
       'Для защиты Вашей конфиденциальности, новые адреса ' +
       'генерируются автоматически после, как Вы ими воспользовались.',
-    generateButton: 'Generate another address',
-    cannotGenerate: 'You have to use some of your addresses',
-    freshAddresses: 'Fresh addresses',
-    usedAddresses: 'Used addresses',
+    generateButton: 'Сгенерировать другой адрес',
+    cannotGenerate: 'Вы должны использовать некоторые из ваших адресов',
+    freshAddresses: 'Новые адреса',
+    usedAddresses: 'Использованные адреса',
   },
   AddressDetailsModal: {
-    walletAddress: 'Your wallet address',
-    BIP32path: 'BIP32 path:',
-    copyLabel: 'Copy address',
-    copiedLabel: 'Copied',
+    walletAddress: 'Адрес Вашего кошелька',
+    BIP32path: 'путь BIP32:',
+    copyLabel: 'Cкопировать адрес ',
+    copiedLabel: 'Скопировано',
   },
   MnemonicShowScreen: {
-    title: 'Recovery phrase',
+    title: 'Фраза восстановления',
     mnemonicNote:
-      'Please, make sure you have carefully written down your ' +
+      'Пожалуйста, убедитесь, что Вы внимательно записали ' +
       'recovery phrase somewhere safe. ' +
       'You will need this phrase to use and restore your wallet. ' +
       'Phrase is case sensitive.',
