@@ -32,8 +32,8 @@ const common = {
 // ios system translations
 const ios = {
   NSFaceIDUsageDescription:
-    'Enabling Face ID allows you quick and secure access to your account.',
-  NSCameraUsageDescription: 'Enabling camera allows you to scan QR codes.',
+    'Активация Face ID позволяет Вам быстро и безопасно иметь доступ к Вашему аккаунту.',
+  NSCameraUsageDescription: 'Активация камеры позволяет Вам сканирововать QR коды.',
 }
 
 const l10n = {
@@ -42,16 +42,16 @@ const l10n = {
     datetime,
     ios,
     notifications: {
-      offline: 'You are offline. Please check settings on your device.',
+      offline: 'Вы не подключены к сети. Пожалуйста, проверьте настройки на Вашем устройстве.',
     },
     currentLanguageName: 'English',
   },
   confirmationDialogs: {
     logout: {
-      title: 'Logout',
-      message: 'Do you really want to logout?',
-      yesButton: 'Yes',
-      noButton: 'No',
+      title: 'Выйти',
+      message: 'Вы действительно хотите завершить сеанс?',
+      yesButton: 'Да',
+      noButton: 'Нет',
     },
   },
   errorDialogs: {
