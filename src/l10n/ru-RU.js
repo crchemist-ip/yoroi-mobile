@@ -116,7 +116,7 @@ const l10n = {
         'Вы, вероятно, отключили блокировку экрана в Вашем телефоне. Вам необходимо ' +
         'сначала отключить упрощенное подтверждение транзакции. Please set up ' +
         'you lock screen (PIN / Password / Pattern) on your phone ' +
-        'and then restart application. After this action you should be ' +
+        'and then restart application. После этого действия Вы сможете ' +
         'able to disable lock screen ' +
         'on your phone and use this application',
       yesButton: 'OK',
