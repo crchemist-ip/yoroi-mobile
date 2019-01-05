@@ -155,18 +155,18 @@ const l10n = {
     paragraph1: [
       inline([
         normal(
-          'On the following screen, you will see a set of 15 random words. ',
+          'В следующем окне Вы увидите набор 15 случайных слов. ',
         ),
-        normal('This is your '),
-        bold('wallet recovery phrase. '),
-        normal('It can be entered in any version '),
-        normal('of Yoroi in order to back up or restore '),
-        normal('your wallet`s funds and private key.'),
+        normal('Это фраза '),
+        bold('восстановления Вашего кошелька. '),
+        normal('Она может быть введена в любой версии '),
+        normal('Yoroi для резервного копирования или восстановления '),
+        normal('средств Вашего кошелька и приватного ключа.'),
       ]),
     ],
     paragraph2: [
       inline([
-        normal('Make sure '),
+        normal('Убедитесь, что '),
         bold('nobody looks into your screen '),
         normal('unless you want them to have access to your funds.'),
       ]),
