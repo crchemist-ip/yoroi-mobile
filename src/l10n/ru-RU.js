@@ -117,23 +117,23 @@ const l10n = {
         'сначала отключить упрощенное подтверждение транзакции. Please set up ' +
         'you lock screen (PIN / Password / Pattern) on your phone ' +
         'and then restart application. После этого действия Вы сможете ' +
-        'able to disable lock screen ' +
-        'on your phone and use this application',
+        'отключить блокировку экрана ' +
+        'на своем телефоне и использовать это приложение',
       yesButton: 'OK',
     },
     wrongPinError: {
-      title: 'Invalid PIN',
-      message: 'PIN is incorrect.',
+      title: 'Неверный PIN',
+      message: 'неверный PIN-код.',
       yesButton: 'OK',
     },
   },
   LanguageSelectionScreen: {
     languages,
-    continueButton: 'Choose language',
+    continueButton: 'Выбрать язык',
   },
   YoroiDescription: {
-    line1: 'Yoroi is Web Light Wallet for Cardano',
-    line2: 'Secure Fast Simple',
+    line1: 'Yoroi - это легкий веб-кошелек для Cardano',
+    line2: 'Безопасно Быстро Просто',
     byEmurgo: 'By',
   },
   AppStartScreen: {
