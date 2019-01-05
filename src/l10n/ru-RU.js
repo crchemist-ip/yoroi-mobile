@@ -328,9 +328,9 @@ const l10n = {
   ReceiveScreen: {
     title: 'Получить',
     infoText:
-      'Share this address to receive payments. ' +
-      'To protect your privacy, new addresses are ' +
-      'generated automatically once you use them.',
+      'Поделитесь этим адресом для получения платежей. ' +
+      'Для защиты Вашей конфиденциальности, новые адреса ' +
+      'генерируются автоматически после, как Вы ими воспользовались.',
     generateButton: 'Generate another address',
     cannotGenerate: 'You have to use some of your addresses',
     freshAddresses: 'Fresh addresses',
