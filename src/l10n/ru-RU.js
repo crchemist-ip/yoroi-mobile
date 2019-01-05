@@ -62,21 +62,21 @@ const l10n = {
     }),
     pinMismatch: {
       title: 'Неверный PIN',
-      message: 'PINs do not match.',
+      message: 'PIN-коды не совпадают.',
       yesButton: common.ok,
     },
     incorrectPin: {
-      title: 'Invalid PIN',
-      message: 'The PIN you entered is incorrect.',
+      title: 'Неверный PIN',
+      message: 'Введен неверный PIN-код.',
       yesButton: common.ok,
     },
     incorrectPassword: {
-      title: 'Wrong password',
-      message: 'Password you provided is incorrect.',
+      title: 'Неверный пароль',
+      message: 'Вы ввели неверный пароль.',
       yesButton: common.ok,
     },
     biometricsIsTurnedOff: {
-      title: 'Biometrics was turned off',
+      title: 'Биометрия была выключена',
       message: 'It seems that you turned off biometrics, please turn it on',
       yesButton: common.ok,
     },
