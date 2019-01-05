@@ -44,7 +44,7 @@ const l10n = {
     notifications: {
       offline: 'Вы не подключены к сети. Пожалуйста, проверьте настройки на Вашем устройстве.',
     },
-    currentLanguageName: 'English',
+    currentLanguageName: 'Русский',
   },
   confirmationDialogs: {
     logout: {
@@ -216,11 +216,11 @@ const l10n = {
         SELF: 'Intrawallet',
         MULTI: 'Multiparty',
       },
-      assuranceLevelHeader: 'Assurance level:',
+      assuranceLevelHeader: 'Уровень гарантии:',
       assuranceLevel: {
-        LOW: 'Low',
-        MEDIUM: 'Medium',
-        HIGH: 'High',
+        LOW: 'Низкий',
+        MEDIUM: 'Средний',
+        HIGH: 'Высокий',
         PENDING: 'Pending',
         FAILED: 'Failed',
       },
