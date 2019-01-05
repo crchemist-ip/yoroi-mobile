@@ -18,15 +18,15 @@ const datetime = {
 }
 
 const walletNameErrors = {
-  tooLong: 'Wallet name cannot exceed 40 letters',
-  nameAlreadyTaken: 'This name is already taken',
+  tooLong: 'Имя кошелька не должно быть длиннее 40 символов ',
+  nameAlreadyTaken: 'Это имя уже занято',
 }
 
 // common translations shared across multiple places
 const common = {
-  ok: 'OK',
-  availableFunds: 'Available funds',
-  pleaseWait: 'please wait ...',
+  ok: 'ОК',
+  availableFunds: 'Доступные средства',
+  pleaseWait: 'пожалуйста, подождите ...',
 }
 
 // ios system translations
