@@ -81,7 +81,7 @@ const l10n = {
       yesButton: common.ok,
     },
     walletKeysInvalidated: {
-      title: 'Biometrics changed',
+      title: 'Биометрия изменена',
       message:
         'We detected that your biometrics in phone changed. ' +
         'As a result the easy transaction confirmation was disabled ' +
