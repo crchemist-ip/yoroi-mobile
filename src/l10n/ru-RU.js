@@ -106,9 +106,9 @@ const l10n = {
     enableFingerprintsFirst: {
       title: 'Действие не удалось',
       message:
-        'You need to enable biometrics in your device first in order ' +
-        'to be able link it with this app',
-      yesButton: 'OK',
+        'Вам сначала необходимо включить биометрию на Вашем устройстве, чтобы ' +
+        'чтобы иметь возможность соединить её с этим приложением',
+      yesButton: 'ОК',
     },
     enableSystemAuthFirst: {
       title: 'Lock screen disabled',
