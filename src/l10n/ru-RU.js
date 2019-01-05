@@ -203,16 +203,16 @@ const l10n = {
     syncErrorBanner: {
       textWithoutRefresh: 'Мы испытываем проблемы с синхронизацией.',
       textWithRefresh:
-        'Мы испытываем проблемы с синхронизацией. Pull to refresh',
+        'Мы испытываем проблемы с синхронизацией. Потяните, чтобы обновить',
     },
     availableFundsBanner: {
       label: common.availableFunds,
     },
-    noTransactions: 'No transactions to show yet',
+    noTransactions: 'Еще нет транзакций для показа',
     transaction: {
       transactionType: {
-        SENT: 'ADA sent',
-        RECEIVED: 'ADA received',
+        SENT: 'отправить ADA',
+        RECEIVED: 'получить ADA',
         SELF: 'Intrawallet',
         MULTI: 'Multiparty',
       },
