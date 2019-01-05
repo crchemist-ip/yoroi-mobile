@@ -86,25 +86,25 @@ const l10n = {
         'Мы обнаружили, что биометрия в Вашем телефоне изменилась. ' +
         'В результате чего упрощенное подтверждение транзакции было отключено ' +
         'и отправка транзакции допускается только с мастер-паролем. ' +
-        'You can re-enable easy transactions confirmation in settings',
-      yesButton: 'OK',
+        'Вы можете заново подключить упрощенное подтверждение транзакций в настройках ',
+      yesButton: 'ОК',
     },
     networkError: {
-      title: 'Network error',
+      title: 'Ошибка сети',
       message:
-        'Error connecting to the server. ' +
-        'Please check your internet connection',
+        'Ошибка при подключении к серверу. ' +
+        'Пожалуйста, проверьте Ваше подключение к Интернету',
       yesButton: common.ok,
     },
     disableEasyConfirmationFirst: {
-      title: 'Action failed',
+      title: 'Действие не удалось',
       message:
-        'Please disable easy confirmation function in all ' +
-        'your wallets first',
+        'Пожалуйста, сначала отключите функию упрощенного подтверждения транзакции во всех ' +
+        'Ваших кошельках',
       yesButton: common.ok,
     },
     enableFingerprintsFirst: {
-      title: 'Action failed',
+      title: 'Действие не удалось',
       message:
         'You need to enable biometrics in your device first in order ' +
         'to be able link it with this app',
