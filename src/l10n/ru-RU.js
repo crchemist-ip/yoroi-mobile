@@ -111,10 +111,10 @@ const l10n = {
       yesButton: 'ОК',
     },
     enableSystemAuthFirst: {
-      title: 'Lock screen disabled',
+      title: 'Блокировка экрана отключена',
       message:
-        'You probably disabled lock screen in your phone. You need to ' +
-        'disable easy transaction confirmation first. Please set up ' +
+        'Вы, вероятно, отключили блокировку экрана в Вашем телефоне. Вам необходимо ' +
+        'сначала отключить упрощенное подтверждение транзакции. Please set up ' +
         'you lock screen (PIN / Password / Pattern) on your phone ' +
         'and then restart application. After this action you should be ' +
         'able to disable lock screen ' +
