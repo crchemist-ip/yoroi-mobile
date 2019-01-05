@@ -238,11 +238,11 @@ const l10n = {
     },
     fee: 'Комиссия: ',
     fromAddresses: 'С адресов',
-    toAddresses: 'To Addresses',
-    transactionId: 'Transaction ID',
-    txAssuranceLevel: 'Transaction assurance level',
+    toAddresses: 'На адреса',
+    transactionId: 'ID транзакции',
+    txAssuranceLevel: 'Уровень гарантии транзакции',
     formatConfirmations: (cnt: number) =>
-      `${cnt} ${pluralizeEn(cnt, 'CONFIRMATION', 'CONFIRMATIONS')}`,
+      `${cnt} ${pluralizeEn(cnt, 'ПОДТВЕРЖДЕНИЕ', 'ПОДТВЕРЖДЕНИЯ')}`,
     formatOmittedCount: (cnt: number) => `+ ${cnt} omitted`,
     addressPrefix: {
       receive: (idx: number) => `/${idx}`,
@@ -251,34 +251,34 @@ const l10n = {
     },
   },
   SendAdaScreen: {
-    title: 'Send',
+    title: 'Отправить',
     fee: {
-      label: 'Fee',
+      label: 'Комиссия',
       notAvailable: '-',
     },
     balanceAfter: {
-      label: 'Balance after',
+      label: 'Баланс после',
       notAvailable: '-',
     },
     availableFundsBanner: {
       label: common.availableFunds,
-      isFetching: 'Checking balance...',
+      isFetching: 'Проверка баланса...',
       notAvailable: '-',
     },
     addressInput: {
-      label: 'Address',
+      label: 'Адрес',
       errors: {
-        invalidAddress: 'Please enter valid address',
+        invalidAddress: 'Пожалуйста, введите действительный адрес',
       },
     },
     amountInput: {
-      label: 'Amount',
+      label: 'Сумма',
       errors: {
         invalidAmount: {
           // Note(ppershing): first two should be auto-corrected
           // by the input control
-          INVALID_AMOUNT: 'Please enter valid amount',
-          TOO_MANY_DECIMAL_PLACES: 'Please enter valid amount',
+          INVALID_AMOUNT: 'Пожалуйста, введите правильную сумму',
+          TOO_MANY_DECIMAL_PLACES: 'Пожалуйста, введите правильную сумму',
 
           TOO_LARGE: 'Amount too large',
           NEGATIVE: 'Amount must be positive',
