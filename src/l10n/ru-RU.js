@@ -83,9 +83,9 @@ const l10n = {
     walletKeysInvalidated: {
       title: 'Биометрия изменена',
       message:
-        'We detected that your biometrics in phone changed. ' +
-        'As a result the easy transaction confirmation was disabled ' +
-        'and transaction submitting is allowed only with master password. ' +
+        'Мы обнаружили, что биометрия в Вашем телефоне изменилась. ' +
+        'В результате чего упрощенное подтверждение транзакции было отключено ' +
+        'и отправка транзакции допускается только с мастер-паролем. ' +
         'You can re-enable easy transactions confirmation in settings',
       yesButton: 'OK',
     },
