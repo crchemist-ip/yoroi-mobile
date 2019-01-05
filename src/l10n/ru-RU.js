@@ -56,8 +56,8 @@ const l10n = {
   },
   errorDialogs: {
     generalError: (message: string) => ({
-      title: 'Unexpected error',
-      message: `Requested operation failed. Это все, что нам известно: ${message}`,
+      title: 'Непредвиденная ошибка',
+      message: `Не удалось выполнить запрошенную операцию. Это все, что нам известно: ${message}`,
       yesButton: common.ok,
     }),
     pinMismatch: {
