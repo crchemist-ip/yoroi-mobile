@@ -167,37 +167,37 @@ const l10n = {
     paragraph2: [
       inline([
         normal('Убедитесь, что '),
-        bold('nobody looks into your screen '),
-        normal('unless you want them to have access to your funds.'),
+        bold('никто не смотрит на экран Вашего устройства '),
+        normal('если только Вы не собираетесь предоставить им доступ к Вашим средствам.'),
       ]),
     ],
-    nextButton: 'I understand',
+    nextButton: 'Я понимаю',
   },
   WalletNameAndPasswordForm: {
     walletNameInput: {
-      label: 'Wallet name',
+      label: 'Имя кошелька',
       errors: walletNameErrors,
     },
     newPasswordInput: {
-      label: 'Wallet password',
+      label: 'Пароль кошелька',
     },
     repeatPasswordInput: {
-      label: 'Repeat password',
+      label: 'Повторите пароль',
       errors: {
-        passwordsDoNotMatch: 'Passwords do not match',
+        passwordsDoNotMatch: 'Пароли не совпадают',
       },
     },
-    continueButton: 'Continue',
+    continueButton: 'Продолжить',
   },
   PasswordStrengthIndicator: {
-    passwordRequirementsNote: 'The password needs to contain at least:',
-    passwordMinLength: '7 characters',
-    passwordUpperChar: '1 uppercase letter',
-    passwordLowerChar: '1 lowercase letter',
-    passwordNumber: '1 number',
-    continueButton: 'Continue',
-    passwordBigLength: '12 characters',
-    or: 'Or',
+    passwordRequirementsNote: 'Пароль должен иметь не менее:',
+    passwordMinLength: '7 символов',
+    passwordUpperChar: '1 заглавную букву',
+    passwordLowerChar: '1 строчную букву',
+    passwordNumber: '1 цифру',
+    continueButton: 'Продолжить',
+    passwordBigLength: '12 символов',
+    or: 'Или',
   },
   TransactionHistoryScreeen: {
     syncErrorBanner: {
