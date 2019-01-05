@@ -280,38 +280,38 @@ const l10n = {
           INVALID_AMOUNT: 'Пожалуйста, введите правильную сумму',
           TOO_MANY_DECIMAL_PLACES: 'Пожалуйста, введите правильную сумму',
 
-          TOO_LARGE: 'Amount too large',
-          NEGATIVE: 'Amount must be positive',
+          TOO_LARGE: 'Слишком большая сумма',
+          NEGATIVE: 'Сумма должна быть положительной',
         },
-        insufficientBalance: 'Not enough money to make this transaction',
+        insufficientBalance: 'Недостаточно средств для проведения этой транзакции',
       },
     },
-    continueButton: 'Continue',
+    continueButton: 'Продолжить',
     errorBanners: {
       // note: offline banner is shared with TransactionHistory
       networkError:
-        'We are experiencing issues with fetching your current balance. ' +
-        'Click to retry.',
+        'У нас возникли проблемы с получением текущего баланса. ' +
+        'Нажмите, чтобы повторить.',
       pendingOutgoingTransaction:
-        'You cannot send a new transaction while ' +
-        'an existing one is still pending',
+        'Вы не можете отправить новую транзакцию пока ' +
+        'текущая еще не завершена',
     },
   },
   ReadQRCodeAddressScreen: {
-    title: 'Scan QR code address',
+    title: 'Сканировать QR-код адреса',
   },
   ConfirmSendAdaScreen: {
-    title: 'Send',
-    amount: 'Amount',
+    title: 'Отправить',
+    amount: 'Сумма',
     availableFundsBanner: {
       label: common.availableFunds,
     },
-    balanceAfterTx: 'Balance after transaction',
-    fees: 'Fees',
-    password: 'Wallet password',
-    receiver: 'Receiver',
-    confirmButton: 'Confirm',
-    sendingModalTitle: 'Submitting transaction',
+    balanceAfterTx: 'Баланс после транзакции',
+    fees: 'Комиссия',
+    password: 'Пароль кошелька',
+    receiver: 'Получатель',
+    confirmButton: 'Подтвердить',
+    sendingModalTitle: 'Отправка транзакции',
     pleaseWait: common.pleaseWait,
   },
   WalletCredentialsScreen: {
