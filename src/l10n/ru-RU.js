@@ -343,16 +343,16 @@ const l10n = {
     copiedLabel: 'Скопировано',
   },
   MnemonicShowScreen: {
-    title: 'Фраза восстановления',
+    title: 'Восстановительная фраза',
     mnemonicNote:
       'Пожалуйста, убедитесь, что Вы внимательно записали ' +
-      'recovery phrase somewhere safe. ' +
-      'You will need this phrase to use and restore your wallet. ' +
-      'Phrase is case sensitive.',
-    confirmationButton: 'Yes, I have written it down',
+      'восстановительную фразу в безопасном месте. ' +
+      'Вам будет нужна эта фраза для использования и восстановления Вашего кошелька. ' +
+      'Фраза чувствительна к регистру.',
+    confirmationButton: 'Да, я записал фразу',
   },
   MnemonicBackupImportanceModal: {
-    title: 'Recovery phrase',
+    title: 'Восстановительная фраза',
     keysStorageCheckbox:
       'I understand that my secret keys are held securely ' +
       'on this device only, not on the company`s servers',
