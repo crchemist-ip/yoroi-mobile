@@ -77,7 +77,7 @@ const l10n = {
     },
     biometricsIsTurnedOff: {
       title: 'Биометрия была выключена',
-      message: 'It seems that you turned off biometrics, please turn it on',
+      message: 'Кажется, что Вы отключили биометрию, пожалуйста, включите её',
       yesButton: common.ok,
     },
     walletKeysInvalidated: {
