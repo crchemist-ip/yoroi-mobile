@@ -201,9 +201,9 @@ const l10n = {
   },
   TransactionHistoryScreeen: {
     syncErrorBanner: {
-      textWithoutRefresh: 'We are experiencing synchronization issues.',
+      textWithoutRefresh: 'Мы испытываем проблемы с синхронизацией.',
       textWithRefresh:
-        'We are experiencing synchronization issues. Pull to refresh',
+        'Мы испытываем проблемы с синхронизацией. Pull to refresh',
     },
     availableFundsBanner: {
       label: common.availableFunds,
