@@ -134,21 +134,21 @@ const l10n = {
   YoroiDescription: {
     line1: 'Yoroi - это легкий веб-кошелек для Cardano',
     line2: 'Безопасно Быстро Просто',
-    byEmurgo: 'By',
+    byEmurgo: 'От',
   },
   AppStartScreen: {
-    loginButton: 'Login',
+    loginButton: 'Вход',
   },
   WithPinLoginScreen: {
-    title: 'Enter PIN',
+    title: 'Ввести PIN',
   },
   CreateWalletScreen: {
-    title: 'Create a new wallet',
+    title: 'Создать новый кошелек',
   },
   CreateOrRestoreWalletScreen: {
-    title: 'Add wallet',
-    createWalletButton: 'Create new wallet',
-    restoreWalletButton: 'Restore wallet from backup',
+    title: 'Добавить кошелек',
+    createWalletButton: 'Создать новый кошелек',
+    restoreWalletButton: 'Восстановить кошелек из резервной копии',
   },
   // On CreateWalletScreen
   MnemonicExplanationModal: {
