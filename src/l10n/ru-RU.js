@@ -32,7 +32,7 @@ const common = {
 // ios system translations
 const ios = {
   NSFaceIDUsageDescription:
-    'Активация Face ID позволяет Вам быстро и безопасно иметь доступ к Вашему аккаунту.',
+    'Активация Face ID позволяет Вам быстро и безопасно получить доступ к Вашему аккаунту.',
   NSCameraUsageDescription: 'Активация камеры позволяет Вам сканирововать QR коды.',
 }
 
@@ -57,11 +57,11 @@ const l10n = {
   errorDialogs: {
     generalError: (message: string) => ({
       title: 'Unexpected error',
-      message: `Requested operation failed. This is all we know: ${message}`,
+      message: `Requested operation failed. Это все, что нам известно: ${message}`,
       yesButton: common.ok,
     }),
     pinMismatch: {
-      title: 'Invalid PIN',
+      title: 'Неверный PIN',
       message: 'PINs do not match.',
       yesButton: common.ok,
     },
