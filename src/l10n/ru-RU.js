@@ -315,18 +315,18 @@ const l10n = {
     pleaseWait: common.pleaseWait,
   },
   WalletCredentialsScreen: {
-    title: 'Wallet credentials',
+    title: 'Учетные данные кошелька',
   },
   ChangeWalletNameScreen: {
-    title: 'Change wallet name',
+    title: 'Изменить имя кошелька',
     walletNameInput: {
-      label: 'Wallet name',
+      label: 'Имя кошелька',
       errors: walletNameErrors,
     },
-    changeButton: 'Change name',
+    changeButton: 'Изменить имя',
   },
   ReceiveScreen: {
-    title: 'Receive',
+    title: 'Получить',
     infoText:
       'Share this address to receive payments. ' +
       'To protect your privacy, new addresses are ' +
