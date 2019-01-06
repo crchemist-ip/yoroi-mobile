@@ -419,29 +419,29 @@ const l10n = {
 
       security: 'Безопасность',
       changePin: 'Изменить PIN',
-      biometricsSignIn: 'Sign in with your biometrics',
+      biometricsSignIn: 'Войти, используя мои биометрические данные',
 
-      crashReporting: 'Crash reporting',
+      crashReporting: 'Сбой в предоставлении отчета',
       crashReportingText:
-        'Send crash reports to Emurgo. ' +
-        'Changes to this option will be reflected ' +
-        ' after restarting the application.',
+        'Отправить отчеты о сбоях в Emurgo. ' +
+        'Изменения в этой опции будут отражены ' +
+        ' после перезагрузки приложения.',
 
-      termsOfUse: 'Terms of Use',
-      support: 'Support',
+      termsOfUse: 'Условия использования',
+      support: 'Поддержка',
     },
   },
   SupportScreen: {
-    title: 'Support',
+    title: 'Поддержка',
     faq: {
-      label: 'See frequently asked questions',
+      label: 'Просмотреть часто задаваемые вопросы',
       description:
-        'If you are experiencing issues, please see the FAQ ' +
-        'on Yoroi website for quidance on known issues.',
+        'Если Вы столкнулись с трудностями, пожалуйста, посетите раздел FAQ ' +
+        'на сайте Yoroi для поиска ответа на Ваш вопрос.',
       url: 'https://yoroi-wallet.com/faq/',
     },
     report: {
-      label: 'Report a problem',
+      label: 'Сообщить о проблеме',
       description:
         'If the FAQ does not solve the issue you are ' +
         'experiencing, please use our Support request feature.',
