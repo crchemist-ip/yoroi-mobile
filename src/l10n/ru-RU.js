@@ -443,28 +443,28 @@ const l10n = {
     report: {
       label: 'Сообщить о проблеме',
       description:
-        'If the FAQ does not solve the issue you are ' +
-        'experiencing, please use our Support request feature.',
+        'Если раздел FAQ не решил возникший у Вас вопрос ' +
+        'пожалуйста, воспользуйтесь нашей опцией запроса в Поддержку.',
       url: 'https://yoroi-wallet.com/support/',
     },
   },
   TermsOfServiceScreen: {
-    title: 'Terms of Service Agreement',
+    title: 'Соглашение о предоставлении услуг',
     content: termsOfService,
-    aggreeClause: 'I agree with terms of service',
-    continueButton: 'Accept',
-    savingConsentModalTitle: 'Initializing',
+    aggreeClause: 'Я согласен с условиями предоставления услуг',
+    continueButton: 'Принять',
+    savingConsentModalTitle: 'Инициализация',
     pleaseWait: common.pleaseWait,
   },
   WalletSelectionScreen: {
-    header: 'Your wallets',
-    addWalletButton: 'Add wallet',
+    header: 'Ваши кошельки',
+    addWalletButton: 'Добавить кошелек',
   },
   BiometricsLinkScreen: {
     enableFingerprintsMessage:
-      'Enable use of fingerprints in device settings first!',
-    notNowButton: 'Not now',
-    linkButton: 'Link',
+      'Сначала включите использование отпечатков пальцев в настройках устройства!',
+    notNowButton: 'Не сейчас',
+    linkButton: 'Ссылка',
     headings: ['Use your fingerprint'],
     subHeadings: ['for faster, easier access', 'to your Yoroi wallet'],
   },
