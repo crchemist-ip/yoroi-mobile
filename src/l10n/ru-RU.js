@@ -378,14 +378,14 @@ const l10n = {
   RestoreWalletScreen: {
     title: 'Восстановить кошелек',
     instructions:
-      'To restore your wallet please provide the recovery phrase you ' +
-      'received when you created your wallet for the first time.',
+      'Чтобы восстановить Ваш кошелек, пожалуйста, предоставьте восстановительную фразу, которую ' +
+      'Вы получили, когда создали свой кошелек в первый раз.',
     mnemonicInput: {
-      label: 'Recovery phrase',
+      label: 'Восстановительная фраза',
       errors: {
-        TOO_LONG: 'Phrase is too long. ',
-        TOO_SHORT: 'Phrase is too short. ',
-        INVALID_CHECKSUM: 'Please enter valid mnemonic.',
+        TOO_LONG: 'Фраза слишком длинная. ',
+        TOO_SHORT: 'Фраза слишком короткая. ',
+        INVALID_CHECKSUM: 'Пожалуйста, введите верную мнемоническую фразу.',
         UNKNOWN_WORDS: (words: Array<string>) => {
           const wordlist = words.map((word) => `'${word}'`).join(', ')
           const areInvalid = `${pluralizeEn(words.length, 'is', 'are')} invalid`
@@ -393,21 +393,21 @@ const l10n = {
         },
       },
     },
-    restoreButton: 'Restore wallet',
+    restoreButton: 'Восстановить кошелек',
   },
   SettingsScreen: {
     WalletTab: {
-      title: 'Settings',
-      tabTitle: 'Wallet',
+      title: 'Настройки',
+      tabTitle: 'Кошелек',
 
-      switchWallet: 'Switch wallet',
-      logout: 'Logout',
+      switchWallet: 'Перейти в другой кошелек',
+      logout: 'Выход',
 
-      walletName: 'Wallet name',
+      walletName: 'Имя кошелька,
 
-      security: 'Security',
-      changePassword: 'Change password',
-      easyConfirmation: 'Easy transaction confirmation',
+      security: 'Безопасность',
+      changePassword: Изменить пароль',
+      easyConfirmation: 'Упрощенное подтверждение транзакции',
 
       removeWallet: 'Remove wallet',
     },
