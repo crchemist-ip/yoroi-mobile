@@ -409,16 +409,16 @@ const l10n = {
       changePassword: Изменить пароль',
       easyConfirmation: 'Упрощенное подтверждение транзакции',
 
-      removeWallet: 'Remove wallet',
+      removeWallet: 'Удалить кошелек',
     },
     ApplicationTab: {
-      title: 'Settings',
-      tabTitle: 'Application',
+      title: 'Настройки',
+      tabTitle: 'Приложение',
 
-      language: 'Your language',
+      language: 'Ваш язык',
 
-      security: 'Security',
-      changePin: 'Change PIN',
+      security: 'Безопасность',
+      changePin: 'Изменить PIN',
       biometricsSignIn: 'Sign in with your biometrics',
 
       crashReporting: 'Crash reporting',
