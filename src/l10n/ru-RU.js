@@ -550,26 +550,26 @@ const l10n = {
         'Эта опция позволит Вам отправлять ADA транзакции со своего кошелька, ' +
         'просто подтвердив это с помощью отпечатка пальца или ' +
         'с запасным вариантом стандартной системы распознавания лица. ' +
-        'Это делает Ваш кошелек менее безопасным. Это подвергает риску ' +
-        'between UX and security!',
+        'Это делает Ваш кошелек менее безопасным. Это копромисс ' +
+        'между UX и безопасностью!',
       warning:
         'Please remember your master password, as you may need it ' +
-        'in case your biometrics data are removed from the device.',
-      masterPassword: 'Master password',
-      enableButton: 'Enable',
+        'в случае, если Ваши биометрические данные будут удалены с устройства.',
+      masterPassword: 'Мастер-пароль',
+      enableButton: 'Включить',
     },
     disable: {
       heading:
-        'By disabling this option you will be able to spend your ADA ' +
-        'only with master password.',
-      disableButton: 'Disable',
+        'Отключив эту опцию, Вы сможете тратить свою ADA ' +
+        'только с мастер-паролем.',
+      disableButton: 'Отключить',
     },
   },
   Biometry: {
-    approveTransaction: 'Authorize with your fingerprint',
+    approveTransaction: 'Авторизовать со своим отпечатком пальца',
     subtitle: '', // subtitle for the biometry dialog Andoid 9
     description: '', // description of the biometry dialog Android 9
-    cancelButton: 'Cancel',
+    cancelButton: 'Отменить',
   },
 }
 
