@@ -514,28 +514,28 @@ const l10n = {
   ChangePasswordScreen: {
     title: 'Изменить пароль кошелька',
     oldPasswordInput: {
-      label: 'Current password',
+      label: 'Текущий пароль',
     },
     newPasswordInput: {
-      label: 'New password',
+      label: 'Новый пароль',
     },
     repeatPasswordInput: {
-      label: 'Repeat new password',
+      label: 'Повторить новый пароль',
       errors: {
-        passwordsDoNotMatch: 'Passwords do not match',
+        passwordsDoNotMatch: 'Пароли не совпадают',
       },
     },
-    continueButton: 'Change password',
+    continueButton: 'Изменить пароль,
   },
   ChangeCustomPinScreen: {
-    title: 'Change PIN',
+    title: 'Изменить PIN',
     CurrentPinInput: {
-      title: 'Enter PIN',
+      title: 'Ввести PIN',
       subtitle: 'Enter your current PIN',
     },
     PinRegistrationForm: {
       PinInput: {
-        title: 'Enter PIN',
+        title: 'Ввести PIN',
         subtitle: 'Choose new PIN for quick access to wallet.',
       },
       PinConfirmationInput: {
