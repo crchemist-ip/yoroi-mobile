@@ -360,23 +360,23 @@ const l10n = {
       'Я понимаю, что если данное приложение будет перемещено на другое устройство ' +
       'или удалено, мои средства могут быть восстановлены только с помощью фразы восстановления, которую ' +
       'я записал и сохранил в безопасном месте.',
-    confirmationButton: 'I understand',
+    confirmationButton: 'Я понимаю',
   },
   MnemonicCheckScreen: {
-    title: 'Recovery phrase',
+    title: 'Восстановительная фраза',
     instructions:
       'Tap each word in the correct order to verify your recovery phrase',
     mnemonicWordsInput: {
-      label: 'Recovery phrase',
+      label: 'Восстановительная фраза',
       errors: {
-        invalidPhrase: 'Recovery phrase does not match',
+        invalidPhrase: 'Восстановительная фраза не совпадает',
       },
     },
-    clearButton: 'Clear',
-    confirmButton: 'Confirm',
+    clearButton: 'Очистить',
+    confirmButton: 'Подтвердить',
   },
   RestoreWalletScreen: {
-    title: 'Restore wallet',
+    title: 'Восстановить кошелек',
     instructions:
       'To restore your wallet please provide the recovery phrase you ' +
       'received when you created your wallet for the first time.',
