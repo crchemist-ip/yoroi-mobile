@@ -465,54 +465,54 @@ const l10n = {
       'Сначала включите использование отпечатков пальцев в настройках устройства!',
     notNowButton: 'Не сейчас',
     linkButton: 'Ссылка',
-    headings: ['Use your fingerprint'],
-    subHeadings: ['for faster, easier access', 'to your Yoroi wallet'],
+    headings: ['Используйте свой отпечаток пальца'],
+    subHeadings: ['для более быстрого, легкого доступа', 'к Вашему Yoroi кошельку'],
   },
   // TODO(ppershing): this localization is a mess
   BiometricsAuthScreen: {
-    authorizeOperation: 'Authorize operation',
-    useFallbackButton: 'Use fallback',
-    headings: ['Authorize with your', 'fingerprint'],
-    cancelButton: 'Cancel',
+    authorizeOperation: 'Авторизовать операцию',
+    useFallbackButton: 'Использовать запасной вариант',
+    headings: ['Авторизовать со своим', 'отпечатком пальца'],
+    cancelButton: 'Отменить',
     errors: {
-      NOT_RECOGNIZED: 'Fingerprint was not recognized try again',
-      SENSOR_LOCKOUT: 'You used too many fingers sensor is disabled',
+      NOT_RECOGNIZED: 'Отпечаток пальца не был распознан, попробуйте еще раз',
+      SENSOR_LOCKOUT: 'Вы использовали слишком много пальцев, датчик отключен',
       SENSOR_LOCKOUT_PERMANENT:
-        'You permanently locked out your fingerprint sensor. Use fallback.',
-      DECRYPTION_FAILED: 'Fingerprint sensor failed please use fallback',
-      UNKNOWN_ERROR: 'Unknown error',
+        'Вы навсегда заблокировали свой датчик отпечатков пальцев. Используйте запасной вариант.',
+      DECRYPTION_FAILED: 'Сбой датчика отпечатков пальцев, используйте запасной вариант',
+      UNKNOWN_ERROR: 'Неизвестная ошибка',
     },
   },
   RemoveWalletScreen: {
-    title: 'Remove wallet',
+    title: 'Удалить кошелек',
     description: {
       paragraph1:
-        'If you really wish to permanently delete the wallet ' +
-        'make sure you have written down the mnemonic.',
-      paragraph2: 'To confirm this operation type the wallet name below.',
+        'Если Вы действительно хотите навсегда удалить кошелек, ' +
+        'убедитесь, что Вы записали мнемоническую фразу.',
+      paragraph2: 'Для подтверждения этой операции введите имя кошелька ниже.',
     },
-    walletName: 'Wallet name',
-    walletNameInput: 'Wallet name',
-    remove: 'Remove wallet',
+    walletName: 'Имя кошелька',
+    walletNameInput: 'Имя кошелька',
+    remove: 'Удалить кошелек',
     hasWrittenDownMnemonic:
-      'I have written down mnemonic of this wallet and understand ' +
-      'that I cannot recover the wallet without it.',
+      'Я записал мнемоническую фразу и я понимаю, ' +
+      'что я не могу восстановить свой кошелек без нее.',
   },
 
   ChoosePinScreen: {
-    title: 'Set PIN',
+    title: 'Установить PIN-код',
     PinRegistrationForm: {
       PinInput: {
-        title: 'Enter the PIN',
-        subtitle: 'Choose new PIN for quick access to wallet.',
+        title: 'Ввести PIN',
+        subtitle: 'Выбрать новый PIN для быстрого доступа к кошельку.',
       },
       PinConfirmationInput: {
-        title: 'Repeat PIN',
+        title: 'Повторить PIN',
       },
     },
   },
   ChangePasswordScreen: {
-    title: 'Change wallet password',
+    title: 'Изменить пароль кошелька',
     oldPasswordInput: {
       label: 'Current password',
     },
