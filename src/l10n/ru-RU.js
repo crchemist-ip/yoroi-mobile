@@ -547,10 +547,10 @@ const l10n = {
     title: 'Упрощенное подтверждение',
     enable: {
       heading:
-        'This option will allow you to send ADA transactions ' +
-        'from your wallet just by confirming with fingerprint or ' +
-        'face recognition with standard system fallback option. ' +
-        'This makes your wallet less secure. This is a compromise ' +
+        'Эта опция позволит Вам отправлять ADA транзакции со своего кошелька, ' +
+        'просто подтвердив это с помощью отпечатка пальца или ' +
+        'с запасным вариантом стандартной системы распознавания лица. ' +
+        'Это делает Ваш кошелек менее безопасным. Это подвергает риску ' +
         'between UX and security!',
       warning:
         'Please remember your master password, as you may need it ' +
