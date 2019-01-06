@@ -536,15 +536,15 @@ const l10n = {
     PinRegistrationForm: {
       PinInput: {
         title: 'Ввести PIN',
-        subtitle: 'Choose new PIN for quick access to wallet.',
+        subtitle: 'Выбрать новый PIN для быстрого доступа к кошельку.',
       },
       PinConfirmationInput: {
-        title: 'Repeat PIN',
+        title: 'Повторить PIN',
       },
     },
   },
   EasyConfirmationScreen: {
-    title: 'Easy confirmation',
+    title: 'Упрощенное подтверждение',
     enable: {
       heading:
         'This option will allow you to send ADA transactions ' +
