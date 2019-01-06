@@ -354,12 +354,12 @@ const l10n = {
   MnemonicBackupImportanceModal: {
     title: 'Восстановительная фраза',
     keysStorageCheckbox:
-      'I understand that my secret keys are held securely ' +
-      'on this device only, not on the company`s servers',
+      'Я понимаю, что мои секретные ключи безопасным образом хранятся ' +
+      'только на данном устройстве, а не на серверах компании',
     newDeviceRecoveryCheckbox:
-      'I understand that if this application is moved to another device ' +
-      'or delete, my money can be only recovered with the backup phrase that ' +
-      'I have written down and saved in secure place.',
+      'Я понимаю, что если данное приложение будет перемещено на другое устройство ' +
+      'или удалено, мои средства могут быть восстановлены только с помощью фразы восстановления, которую ' +
+      'я записал и сохранил в безопасном месте.',
     confirmationButton: 'I understand',
   },
   MnemonicCheckScreen: {
