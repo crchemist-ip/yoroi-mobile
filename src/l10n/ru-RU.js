@@ -365,7 +365,7 @@ const l10n = {
   MnemonicCheckScreen: {
     title: 'Восстановительная фраза',
     instructions:
-      'Tap each word in the correct order to verify your recovery phrase',
+      'Нажмите на каждое слово в правильном порядке для проверки Вашей фразы восстановления',
     mnemonicWordsInput: {
       label: 'Восстановительная фраза',
       errors: {
@@ -403,10 +403,10 @@ const l10n = {
       switchWallet: 'Перейти в другой кошелек',
       logout: 'Выход',
 
-      walletName: 'Имя кошелька,
+      walletName: 'Имя кошелька',
 
       security: 'Безопасность',
-      changePassword: Изменить пароль',
+      changePassword: 'Изменить пароль',
       easyConfirmation: 'Упрощенное подтверждение транзакции',
 
       removeWallet: 'Удалить кошелек',
@@ -466,7 +466,7 @@ const l10n = {
     notNowButton: 'Не сейчас',
     linkButton: 'Ссылка',
     headings: ['Используйте свой отпечаток пальца'],
-    subHeadings: ['для более быстрого, легкого доступа', 'к Вашему Yoroi кошельку'],
+    subHeadings: ['для более быстрого, легкого доступа', 'к своему Yoroi кошельку'],
   },
   // TODO(ppershing): this localization is a mess
   BiometricsAuthScreen: {
@@ -531,7 +531,7 @@ const l10n = {
     title: 'Изменить PIN',
     CurrentPinInput: {
       title: 'Ввести PIN',
-      subtitle: 'Enter your current PIN',
+      subtitle: 'Введите свой текущий PIN',
     },
     PinRegistrationForm: {
       PinInput: {
@@ -548,19 +548,19 @@ const l10n = {
     enable: {
       heading:
         'Эта опция позволит Вам отправлять ADA транзакции со своего кошелька, ' +
-        'просто подтвердив это с помощью отпечатка пальца или ' +
+        'просто подтверждая их с помощью отпечатка пальца или ' +
         'с запасным вариантом стандартной системы распознавания лица. ' +
         'Это делает Ваш кошелек менее безопасным. Это копромисс ' +
         'между UX и безопасностью!',
       warning:
-        'Please remember your master password, as you may need it ' +
+        'Пожалуйста, помните свой мастер-пароль, так как он может Вам понадобиться ' +
         'в случае, если Ваши биометрические данные будут удалены с устройства.',
       masterPassword: 'Мастер-пароль',
       enableButton: 'Включить',
     },
     disable: {
       heading:
-        'Отключив эту опцию, Вы сможете тратить свою ADA ' +
+        'Отключая эту опцию, Вы сможете тратить свою ADA ' +
         'только с мастер-паролем.',
       disableButton: 'Отключить',
     },
