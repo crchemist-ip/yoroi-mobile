@@ -59,12 +59,12 @@ const l10n = {
   errorDialogs: {
     generalError: (message: string) => ({
       title: '予期せぬエラーが起こりました。',
-      message: `Requested operation failed. This is all we know: ${message}`,
+      message: `要求された操作を行うことができません。 以下のようなエラーが表示されます。: ${message}`,
       yesButton: common.ok,
     }),
     pinMismatch: {
-      title: 'Invalid PIN',
-      message: 'PINs do not match.',
+      title: 'PINが無効です',
+      message: 'PINが間違っています。.',
       yesButton: common.ok,
     },
     incorrectPin: {
