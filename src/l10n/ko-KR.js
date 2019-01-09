@@ -116,9 +116,9 @@ const l10n = {
         '스마트폰의 화면 잠금 기능이 비활성화 되어 있는 경우, 우선 간편거래 승인을 ' +
         '비활성화 해야 합니다. 사용하고 있는 스마트폰에 ' +
         '화면 잠금 기능 (PIN / 비밀번호 / 패턴) 을 설정하고 ' +
-        '어플케이션을 재시작 해주십시오. After this action you should be ' +
-        'able to disable lock screen ' +
-        'on your phone and use this application',
+        '어플케이션을 다시 시작해 주십시오. 그 후 스마트폰의 ' +
+        화면 잠금을 해제하고 ' +
+        어플리케이션을 이용할 수 있습니다.
       yesButton: 'OK',
     },
     wrongPinError: {
