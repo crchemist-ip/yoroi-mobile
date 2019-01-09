@@ -84,16 +84,16 @@ const l10n = {
       title: '생체인식 활성화',
       message:
         '스마트폰의 생체인식 변경이 탐지되었습니다. ' +
-        '생체인식에 의한 거래 승인은 사용할 수 없게 되어. ' +
-        'and transaction submitting is allowed only with master password. ' +
-        'You can re-enable easy transactions confirmation in settings',
+        '따라서 생체인식에 의한 간편거래 승인은 사용할 수 없게 되었으며. ' +
+        '마스터 비밀번호를 이용한 거래 승인만 허용됩니다. ' +
+        '설정에서 간편결제 승인을 재설정 할 수 있습니다.',
       yesButton: 'OK',
     },
     networkError: {
-      title: 'Network error',
+      title: '네트워크 에러',
       message:
-        'Error connecting to the server. ' +
-        'Please check your internet connection',
+        '서버에 접속하는데 문제가 발생했습니다. ' +
+        '인터넷이 연결되어 있는지 확인해 주십시오.',
       yesButton: common.ok,
     },
     disableEasyConfirmationFirst: {
