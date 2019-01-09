@@ -100,17 +100,17 @@ const l10n = {
       yesButton: common.ok,
     },
     disableEasyConfirmationFirst: {
-      title: 'Action failed',
+      title: 'アクションが失敗しました。',
       message:
         'Please disable easy confirmation function in all ' +
         'your wallets first',
       yesButton: common.ok,
     },
     enableFingerprintsFirst: {
-      title: 'Action failed',
+      title: 'アクションが失敗しました。',
       message:
-        'You need to enable biometrics in your device first in order ' +
-        'to be able link it with this app',
+        ' このアプリとリンクさせるために ' +
+        'デバイスの生体認証を有効にしてください。',
       yesButton: 'OK',
     },
     enableSystemAuthFirst: {
@@ -125,14 +125,14 @@ const l10n = {
       yesButton: 'OK',
     },
     wrongPinError: {
-      title: 'Invalid PIN',
-      message: 'PIN is incorrect.',
+      title: 'PINが無効です。',
+      メッセージ: 'PIN が正しくありません 。'、
       yesButton: 'OK',
     },
   },
   LanguageSelectionScreen: {
     languages,
-    continueButton: 'Choose language',
+    continueButton: '言語を選んでください。',
   },
   YoroiDescription: {
     line1: 'Yoroi is Web Light Wallet for Cardano',
