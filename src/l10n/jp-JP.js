@@ -89,14 +89,14 @@ const l10n = {
         'これにより簡易トランザクション承認が無効になりました。' +
         'トランザクションはマスターパスワードによってのみ承認されます。.
  ' +
-        'You can re-enable easy transactions confirmation in settings',
+        '設定で'簡易トランザクション承認を有効にできます。,
       yesButton: 'OK',
     },
     networkError: {
-      title: 'Network error',
+      title: 'ネットワークエラー',
       message:
-        'Error connecting to the server. ' +
-        'Please check your internet connection',
+        'サーバーに接続できません. ' +
+        'インターネットの接続を確認してください。',
       yesButton: common.ok,
     },
     disableEasyConfirmationFirst: {
