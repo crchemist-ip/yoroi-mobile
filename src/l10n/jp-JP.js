@@ -230,13 +230,13 @@ const l10n = {
       },
       fee: 'Fee:',
     },
-    sendButton: 'Send',
-    receiveButton: 'Receive',
+    sendButton: '送信',
+    receiveButton: '',受信
   },
   TransactionDetailsScreen: {
     transactionType: {
-      SENT: 'Sent funds',
-      RECEIVED: 'Received funds',
+      SENT: '資金を送信しました。',
+      RECEIVED: '資金を受信しました。',
       SELF: 'Intrawallet transaction',
       MULTI: 'Multi-party transaction',
     },
