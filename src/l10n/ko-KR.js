@@ -13,8 +13,8 @@ const languages = {
 }
 
 const datetime = {
-  today: 'Today',
-  yesterday: 'Yesterday',
+  today: '오늘',
+  yesterday: '어제',
 }
 
 const walletNameErrors = {
