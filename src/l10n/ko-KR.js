@@ -251,63 +251,63 @@ const l10n = {
     },
   },
   SendAdaScreen: {
-    title: 'Send',
+    title: '보내기',
     fee: {
-      label: 'Fee',
+      label: '수수료',
       notAvailable: '-',
     },
     balanceAfter: {
-      label: 'Balance after',
+      label: '거래 후 잔액',
       notAvailable: '-',
     },
     availableFundsBanner: {
       label: common.availableFunds,
-      isFetching: 'Checking balance...',
+      isFetching: '잔액을 확인중입니다...',
       notAvailable: '-',
     },
     addressInput: {
-      label: 'Address',
+      label: '주소',
       errors: {
-        invalidAddress: 'Please enter valid address',
+        invalidAddress: '유효한 주소를 입력해 주십시오',
       },
     },
     amountInput: {
-      label: 'Amount',
+      label: '금액',
       errors: {
         invalidAmount: {
           // Note(ppershing): first two should be auto-corrected
           // by the input control
-          INVALID_AMOUNT: 'Please enter valid amount',
-          TOO_MANY_DECIMAL_PLACES: 'Please enter valid amount',
+          INVALID_AMOUNT: '유효한 금액을 입력해 주십시오',
+          TOO_MANY_DECIMAL_PLACES: '유효한 금액을 입력해 주십시오',
 
-          TOO_LARGE: 'Amount too large',
-          NEGATIVE: 'Amount must be positive',
+          TOO_LARGE: '금액 초과',
+          NEGATIVE: '금액은 양수여야 합니다',
         },
-        insufficientBalance: 'Not enough money to make this transaction',
+        insufficientBalance: '거래를 위한 금액이 부족합니다',
       },
     },
-    continueButton: 'Continue',
+    continueButton: '계속',
     errorBanners: {
       // note: offline banner is shared with TransactionHistory
       networkError:
-        'We are experiencing issues with fetching your current balance. ' +
-        'Click to retry.',
+        '잔액을 가져오는데 문제가 발생했습니다. ' +
+        '다시 시도해 주십시오.',
       pendingOutgoingTransaction:
-        'You cannot send a new transaction while ' +
-        'an existing one is still pending',
+        '현재 보류중인 거래가 있을 경우 ' +
+        '새로운 거래를 진행할 수 없습니다',
     },
   },
   ReadQRCodeAddressScreen: {
-    title: 'Scan QR code address',
+    title: 'QR 코드 주소 스캔',
   },
   ConfirmSendAdaScreen: {
-    title: 'Send',
-    amount: 'Amount',
+    title: '보내기',
+    amount: '금액',
     availableFundsBanner: {
       label: common.availableFunds,
     },
-    balanceAfterTx: 'Balance after transaction',
-    fees: 'Fees',
+    balanceAfterTx: '거래 후 잔액',
+    fees: '수수료',
     password: 'Wallet password',
     receiver: 'Receiver',
     confirmButton: 'Confirm',
