@@ -117,11 +117,11 @@ const l10n = {
       title: 'Lock screen disabled',
       message:
         'スマートフォンのロック画面を無効に設定していませんか？ あらかじめ' +
-        'disable easy transaction confirmation first. Please set up ' +
-        'you lock screen (PIN / Password / Pattern) on your phone ' +
-        'and then restart application. After this action you should be ' +
-        'able to disable lock screen ' +
-        'on your phone and use this application',
+        '簡易トランザクション承認を無効に設定する必要があります。 　
+        'スマートフォンのロック画面を設定し（PIN、パスワード、パターン）、' +
+        'デバイスを再起動してください。 その後にロック画面を無効に設定し ' +
+        '本アプリをご利用いただけます。 ' +
+        　
       yesButton: 'OK',
     },
     wrongPinError: {
@@ -163,14 +163,14 @@ const l10n = {
         normal('これはあなたの '),
         bold('ウォレットの復元フレーズです。 '),
         normal('これは、ヨロイのどのバージョンでも'),
-        normal('入力してバックアップ、復元できます。'),
-        normal('your wallet`s funds and private key.'),
+        normal('入力してあなたのウォレットとプライベートキーを'),
+        normal('バックアップ、復元できます。'),
       ]),
     ],
     paragraph2: [
       inline([
-        normal('Make sure '),
-        bold('nobody looks into your screen '),
+        normal('他の人に '),
+        bold('画面をのぞいていないことを確認してください。 '),
         normal('unless you want them to have access to your funds.'),
       ]),
     ],
