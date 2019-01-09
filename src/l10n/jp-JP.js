@@ -26,7 +26,7 @@ const walletNameErrors = {
 // common translations shared across multiple places
 const common = {
   ok: 'OK',
-  availableFunds: '利用可能な資金',
+  availableFunds: '使用可能な資金',
   pleaseWait: 'お待ちください....',
 }
 
@@ -50,15 +50,15 @@ const l10n = {
   },
   confirmationDialogs: {
     logout: {
-      title: 'Logout',
-      message: 'Do you really want to logout?',
-      yesButton: 'Yes',
-      noButton: 'No',
+      title: 'ログアウト',
+      message: '本当にログアウトしてもいいですか?',
+      yesButton: 'はい',
+      noButton: 'いいえ',
     },
   },
   errorDialogs: {
     generalError: (message: string) => ({
-      title: 'Unexpected error',
+      title: '予期せぬエラーが起こりました。',
       message: `Requested operation failed. This is all we know: ${message}`,
       yesButton: common.ok,
     }),
