@@ -194,24 +194,25 @@ const l10n = {
   },
   PasswordStrengthIndicator: {
     passwordRequirementsNote: パスワードは、:',
-    passwordMinLength: '大小1文字ずつの英語＋',
-    passwordUpperChar: '1 uppercase letter',
-    passwordLowerChar: '1 lowercase letter',
-    passwordNumber: '1 number',
-    continueButton: 'Continue',
-    passwordBigLength: '12 characters',
-    or: 'Or',
+    passwordMinLength: '大小1文字以上ずつの英語＋',
+    passwordUpperChar: '任意の一つ以上の数字からなる、',
+    passwordLowerChar: '7~12文字で構成してください。,
+
+     
+     continueButton: '続行',
+     
+    or: 'または',
   },
   TransactionHistoryScreeen: {
     syncErrorBanner: {
-      textWithoutRefresh: 'We are experiencing synchronization issues.',
+      textWithoutRefresh: '同期エラーが発生しています。',
       textWithRefresh:
-        'We are experiencing synchronization issues. Pull to refresh',
+        '同期エラーが発生しています。. 再読み込みしてください',
     },
     availableFundsBanner: {
       label: common.availableFunds,
     },
-    noTransactions: 'No transactions to show yet',
+    noTransactions: 'トランザクションがありません。',
     transaction: {
       transactionType: {
         SENT: 'ADA sent',
