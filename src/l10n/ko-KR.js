@@ -18,22 +18,22 @@ const datetime = {
 }
 
 const walletNameErrors = {
-  tooLong: 'Wallet name cannot exceed 40 letters',
-  nameAlreadyTaken: 'This name is already taken',
+  tooLong: '지갑명은 40자를 초과할 수 없습니다',
+  nameAlreadyTaken: '이 지갑명은 이미 사용중입니다.',
 }
 
 // common translations shared across multiple places
 const common = {
   ok: 'OK',
-  availableFunds: 'Available funds',
-  pleaseWait: 'please wait ...',
+  availableFunds: '사용 가능한 금액',
+  pleaseWait: '잠시 기다려 주십시오 ...',
 }
 
 // ios system translations
 const ios = {
   NSFaceIDUsageDescription:
-    'Enabling Face ID allows you quick and secure access to your account.',
-  NSCameraUsageDescription: 'Enabling camera allows you to scan QR codes.',
+    'Face ID를 사용하여 보다 안전하고 간편하게 계좌에 엑세스 하는게 가능합니다.',
+  NSCameraUsageDescription: '카메라를 사용하여 QR코드를 스캔할 수 있습니다.',
 }
 
 const l10n = {
@@ -42,21 +42,21 @@ const l10n = {
     datetime,
     ios,
     notifications: {
-      offline: 'You are offline. Please check settings on your device.',
+      offline: '현재 오프라인 상태입니다. 디바이스 설정을 확인해 주세요.',
     },
-    currentLanguageName: 'English',
+    currentLanguageName: '한국어',
   },
   confirmationDialogs: {
     logout: {
-      title: 'Logout',
-      message: 'Do you really want to logout?',
-      yesButton: 'Yes',
-      noButton: 'No',
+      title: '로그아웃',
+      message: '로그아웃 하시겠습니까?',
+      yesButton: '네',
+      noButton: '아니오',
     },
   },
   errorDialogs: {
     generalError: (message: string) => ({
-      title: 'Unexpected error',
+      title: '에러가 발생했습니다',
       message: `Requested operation failed. This is all we know: ${message}`,
       yesButton: common.ok,
     }),
