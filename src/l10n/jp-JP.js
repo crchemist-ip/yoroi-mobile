@@ -19,22 +19,22 @@ const datetime = {
 
 
 const walletNameErrors = {
-  tooLong: 'Wallet name cannot exceed 40 letters',
-  nameAlreadyTaken: 'This name is already taken',
+  tooLong: 'ウォレット名が40文字を超えています。',
+  nameAlreadyTaken: 'この名前は使用できません。',
 }
 
 // common translations shared across multiple places
 const common = {
   ok: 'OK',
-  availableFunds: 'Available funds',
-  pleaseWait: 'please wait ...',
+  availableFunds: '利用可能な資金',
+  pleaseWait: 'お待ちください....',
 }
 
 // ios system translations
 const ios = {
   NSFaceIDUsageDescription:
-    'Enabling Face ID allows you quick and secure access to your account.',
-  NSCameraUsageDescription: 'Enabling camera allows you to scan QR codes.',
+    'FaceIDを使って、安全・簡単に口座にアクセスすることができます。',
+  NSCameraUsageDescription: 'カメラを使って、QRコードを読み取ることができます。.',
 }
 
 const l10n = {
@@ -43,7 +43,8 @@ const l10n = {
     datetime,
     ios,
     notifications: {
-      offline: 'You are offline. Please check settings on your device.',
+      offline: 'オフラインになっています。 デバイスの設定を確認してください。.',
+ 
     },
     currentLanguageName: 'English',
   },
