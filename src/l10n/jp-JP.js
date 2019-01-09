@@ -46,7 +46,7 @@ const l10n = {
       offline: 'オフラインになっています。 デバイスの設定を確認してください。.',
  
     },
-    currentLanguageName: 'English',
+    currentLanguageName: '英語',
   },
   confirmationDialogs: {
     logout: {
