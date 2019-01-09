@@ -86,7 +86,7 @@ const l10n = {
       title: '生体認証が変更されました。',
       message:
         ' 端末で生体認証の変更が検出されました。 ' +
-        '生体認証によるトランザクションの承認は行えません。' +
+        'これにより簡易トランザクション承認が無効になりました。' +
         'トランザクションはマスターパスワードによってのみ承認されます。.
  ' +
         'You can re-enable easy transactions confirmation in settings',
