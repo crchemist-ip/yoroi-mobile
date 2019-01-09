@@ -76,14 +76,14 @@ const l10n = {
       yesButton: common.ok,
     },
     biometricsIsTurnedOff: {
-      title: '생체인식이 꺼져 있습니다',
-      message: 'It seems that you turned off biometrics, please turn it on',
+      title: '생체인식이 비활성화 되어 있습니다',
+      message: '생체인식 기능이 현재 비활성화 되어 있으므로 활성화 시켜 주십시오.',
       yesButton: common.ok,
     },
     walletKeysInvalidated: {
-      title: 'Biometrics changed',
+      title: '생체인식 활성화',
       message:
-        'We detected that your biometrics in phone changed. ' +
+        '스마트폰의 생체인식 변경이 탐지되었습니다. ' +
         'As a result the easy transaction confirmation was disabled ' +
         'and transaction submitting is allowed only with master password. ' +
         'You can re-enable easy transactions confirmation in settings',
