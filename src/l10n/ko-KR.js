@@ -84,7 +84,7 @@ const l10n = {
       title: '생체인식 활성화',
       message:
         '스마트폰의 생체인식 변경이 탐지되었습니다. ' +
-        'As a result the easy transaction confirmation was disabled ' +
+        '생체인식에 의한 거래 승인은 사용할 수 없게 되어. ' +
         'and transaction submitting is allowed only with master password. ' +
         'You can re-enable easy transactions confirmation in settings',
       yesButton: 'OK',
