@@ -215,8 +215,8 @@ const l10n = {
     noTransactions: 'トランザクションがありません。',
     transaction: {
       transactionType: {
-        SENT: 'ADA sent',
-        RECEIVED: 'ADA received',
+        SENT: 'ADAが送信されました。',
+        RECEIVED: 'ADAを受信しました。',
         SELF: 'Intrawallet',
         MULTI: 'Multiparty',
       },
