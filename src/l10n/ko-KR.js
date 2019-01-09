@@ -111,11 +111,11 @@ const l10n = {
       yesButton: 'OK',
     },
     enableSystemAuthFirst: {
-      title: '잠금 화면 해제',
+      title: '화면 잠금 해제',
       message:
-        'You probably disabled lock screen in your phone. You need to ' +
-        'disable easy transaction confirmation first. Please set up ' +
-        'you lock screen (PIN / Password / Pattern) on your phone ' +
+        '스마트폰의 화면 잠금 기능이 비활성화 되어 있는 경우, 우선 간편거래 승인을 ' +
+        '비활성화 해야 합니다. 사용하고 있는 스마트폰에 ' +
+        '화면 잠금 기능 (PIN / 비밀번호 / 패턴) 을 설정하고 ' +
         'and then restart application. After this action you should be ' +
         'able to disable lock screen ' +
         'on your phone and use this application',
