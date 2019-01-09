@@ -150,18 +150,18 @@ const l10n = {
   },
   CreateOrRestoreWalletScreen: {
     title: 'ウォレットを追加してください。',
-    createWalletButton: 'Create new wallet',
-    restoreWalletButton: 'Restore wallet from backup',
+    createWalletButton: '新しいウォレットを作成',
+    restoreWalletButton: 'バックアップからウォレットを復元する',
   },
   // On CreateWalletScreen
   MnemonicExplanationModal: {
     paragraph1: [
       inline([
         normal(
-          'On the following screen, you will see a set of 15 random words. ',
+          'On the following screen, you will see a set of 15 random words. ', ',
         ),
         normal('This is your '),
-        bold('wallet recovery phrase. '),
+        bold('wallet recovery phrase '),
         normal('It can be entered in any version '),
         normal('of Yoroi in order to back up or restore '),
         normal('your wallet`s funds and private key.'),
