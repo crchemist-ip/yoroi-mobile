@@ -57,26 +57,26 @@ const l10n = {
   errorDialogs: {
     generalError: (message: string) => ({
       title: '에러가 발생했습니다',
-      message: `Requested operation failed. This is all we know: ${message}`,
+      message: `요청한 작업을 수행하지 못했습니다. 아래와 같은 에러가 발생했습니다: ${message}`,
       yesButton: common.ok,
     }),
     pinMismatch: {
-      title: 'Invalid PIN',
-      message: 'PINs do not match.',
+      title: '유효하지 않는 PIN',
+      message: 'PIN가 일치하지 않습니다.',
       yesButton: common.ok,
     },
     incorrectPin: {
-      title: 'Invalid PIN',
-      message: 'The PIN you entered is incorrect.',
+      title: '유효하지 않는 PIN',
+      message: '입력하신 PIN가 올바르지 않습니다.',
       yesButton: common.ok,
     },
     incorrectPassword: {
-      title: 'Wrong password',
-      message: 'Password you provided is incorrect.',
+      title: '잘못된 비밀번호',
+      message: '비밀번호가 올바르지 않습니다.',
       yesButton: common.ok,
     },
     biometricsIsTurnedOff: {
-      title: 'Biometrics was turned off',
+      title: '생체인식이 꺼져 있습니다',
       message: 'It seems that you turned off biometrics, please turn it on',
       yesButton: common.ok,
     },
