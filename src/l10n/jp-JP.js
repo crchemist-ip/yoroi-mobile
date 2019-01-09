@@ -135,21 +135,21 @@ const l10n = {
     continueButton: '言語を選んでください。',
   },
   YoroiDescription: {
-    line1: 'Yoroi is Web Light Wallet for Cardano',
+    line1: 'ヨロイは、Cardanoのためのライトウォレットです。',
     line2: 'Secure Fast Simple',
     byEmurgo: 'By',
   },
   AppStartScreen: {
-    loginButton: 'Login',
+    loginButton: 'ログイン',
   },
   WithPinLoginScreen: {
-    title: 'Enter PIN',
+    title: 'PINを入れてください。',
   },
   CreateWalletScreen: {
-    title: 'Create a new wallet',
+    title: '新しいウォレットを作成してください。',
   },
   CreateOrRestoreWalletScreen: {
-    title: 'Add wallet',
+    title: 'ウォレットを追加してください。',
     createWalletButton: 'Create new wallet',
     restoreWalletButton: 'Restore wallet from backup',
   },
