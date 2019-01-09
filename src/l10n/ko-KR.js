@@ -97,21 +97,21 @@ const l10n = {
       yesButton: common.ok,
     },
     disableEasyConfirmationFirst: {
-      title: 'Action failed',
+      title: '조치 실패',
       message:
-        'Please disable easy confirmation function in all ' +
-        'your wallets first',
+        '우선 지갑내의 모든 간편 승인 기능을 비활성화 ' +
+        해주십시오
       yesButton: common.ok,
     },
     enableFingerprintsFirst: {
-      title: 'Action failed',
+      title: '조치 실패',
       message:
-        'You need to enable biometrics in your device first in order ' +
-        'to be able link it with this app',
+        '생체인식을 어플리케이션과 연동하기 위해서는, 우선 장치내의 생체인식' +
+        '기능이 활성화 되어야 합니다.',
       yesButton: 'OK',
     },
     enableSystemAuthFirst: {
-      title: 'Lock screen disabled',
+      title: '잠금 화면 해제',
       message:
         'You probably disabled lock screen in your phone. You need to ' +
         'disable easy transaction confirmation first. Please set up ' +
