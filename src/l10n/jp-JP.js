@@ -13,9 +13,10 @@ const languages = {
 }
 
 const datetime = {
-  today: 'Today',
-  yesterday: 'Yesterday',
-}
+  today: '今日',
+  yesterday: '昨日',
+} 
+
 
 const walletNameErrors = {
   tooLong: 'Wallet name cannot exceed 40 letters',
