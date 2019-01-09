@@ -102,8 +102,8 @@ const l10n = {
     disableEasyConfirmationFirst: {
       title: 'アクションが失敗しました。',
       message:
-        'Please disable easy confirmation function in all ' +
-        'your wallets first',
+        'すべてのウォレットの簡易トランザクション承認を ' +
+        '無効にしてください。',
       yesButton: common.ok,
     },
     enableFingerprintsFirst: {
@@ -116,7 +116,7 @@ const l10n = {
     enableSystemAuthFirst: {
       title: 'Lock screen disabled',
       message:
-        'You probably disabled lock screen in your phone. You need to ' +
+        'スマートフォンのロック画面を無効に設定していませんか？ あらかじめ' +
         'disable easy transaction confirmation first. Please set up ' +
         'you lock screen (PIN / Password / Pattern) on your phone ' +
         'and then restart application. After this action you should be ' +
@@ -158,12 +158,12 @@ const l10n = {
     paragraph1: [
       inline([
         normal(
-          'On the following screen, you will see a set of 15 random words. ', ',
+          '次の画面で、任意の15個の言葉が表示されます。. ', ',
         ),
-        normal('This is your '),
-        bold('wallet recovery phrase '),
-        normal('It can be entered in any version '),
-        normal('of Yoroi in order to back up or restore '),
+        normal('これはあなたの '),
+        bold('ウォレットの復元フレーズです。 '),
+        normal('これは、ヨロイのどのバージョンでも'),
+        normal('入力してバックアップ、復元できます。'),
         normal('your wallet`s funds and private key.'),
       ]),
     ],
