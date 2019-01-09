@@ -170,31 +170,31 @@ const l10n = {
     paragraph2: [
       inline([
         normal('他の人に '),
-        bold('画面をのぞいていないことを確認してください。 '),
-        normal('unless you want them to have access to your funds.'),
+        bold('アクセス権が渡らないように、 '),
+        normal('誰も画面をのぞいていないことを確認してください。'),
       ]),
     ],
-    nextButton: 'I understand',
+    nextButton: '了解',
   },
   WalletNameAndPasswordForm: {
     walletNameInput: {
-      label: 'Wallet name',
+      label: 'Wallet名',
       errors: walletNameErrors,
     },
     newPasswordInput: {
-      label: 'Wallet password',
+      label: 'ウォレットのパスワード',
     },
     repeatPasswordInput: {
-      label: 'Repeat password',
+      label: 'パスワードをもう一度入力してください。',
       errors: {
-        passwordsDoNotMatch: 'Passwords do not match',
+        passwordsDoNotMatch: 'パスワードが間違っています。',
       },
     },
-    continueButton: 'Continue',
+    continueButton: '続行',
   },
   PasswordStrengthIndicator: {
-    passwordRequirementsNote: 'The password needs to contain at least:',
-    passwordMinLength: '7 characters',
+    passwordRequirementsNote: パスワードは、:',
+    passwordMinLength: '大小1文字ずつの英語＋',
     passwordUpperChar: '1 uppercase letter',
     passwordLowerChar: '1 lowercase letter',
     passwordNumber: '1 number',
