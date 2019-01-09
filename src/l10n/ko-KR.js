@@ -146,18 +146,18 @@ const l10n = {
     title: '새로운 지갑 만들기',
   },
   CreateOrRestoreWalletScreen: {
-    title: 'Add wallet',
-    createWalletButton: 'Create new wallet',
-    restoreWalletButton: 'Restore wallet from backup',
+    title: '지갑 추가하기',
+    createWalletButton: '새로운 지갑 만들기',
+    restoreWalletButton: '백업에서 지갑 복원하기',
   },
   // On CreateWalletScreen
   MnemonicExplanationModal: {
     paragraph1: [
       inline([
         normal(
-          'On the following screen, you will see a set of 15 random words. ',
+          '다음 화면에서 무작위로 선정된 15개의 단어가 나타납니다. ',
         ),
-        normal('This is your '),
+        normal('이것은 당신의 '),
         bold('wallet recovery phrase. '),
         normal('It can be entered in any version '),
         normal('of Yoroi in order to back up or restore '),
