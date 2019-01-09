@@ -106,8 +106,8 @@ const l10n = {
     enableFingerprintsFirst: {
       title: '조치 실패',
       message:
-        '생체인식을 어플리케이션과 연동하기 위해서는, 우선 장치내의 생체인식' +
-        '기능이 활성화 되어야 합니다.',
+        '생체인식을 어플리케이션과 연동하기 위해서는, 우선 장치내의 생체인식 ' +
+        '기능이 활성화 되어야 합니다',
       yesButton: 'OK',
     },
     enableSystemAuthFirst: {
@@ -116,34 +116,34 @@ const l10n = {
         '스마트폰의 화면 잠금 기능이 비활성화 되어 있는 경우, 우선 간편거래 승인을 ' +
         '비활성화 해야 합니다. 사용하고 있는 스마트폰에 ' +
         '화면 잠금 기능 (PIN / 비밀번호 / 패턴) 을 설정하고 ' +
-        'and then restart application. After this action you should be ' +
+        '어플케이션을 재시작 해주십시오. After this action you should be ' +
         'able to disable lock screen ' +
         'on your phone and use this application',
       yesButton: 'OK',
     },
     wrongPinError: {
-      title: 'Invalid PIN',
-      message: 'PIN is incorrect.',
+      title: '유효하지 않는 PIN',
+      message: 'PIN 이 잘못되었습니다.',
       yesButton: 'OK',
     },
   },
   LanguageSelectionScreen: {
     languages,
-    continueButton: 'Choose language',
+    continueButton: '언어를 선택해 주십시오',
   },
   YoroiDescription: {
-    line1: 'Yoroi is Web Light Wallet for Cardano',
+    line1: '요로이는 카르다노를 위한 웹 기반의 라이트 월렛입니다.',
     line2: 'Secure Fast Simple',
     byEmurgo: 'By',
   },
   AppStartScreen: {
-    loginButton: 'Login',
+    loginButton: '로그인',
   },
   WithPinLoginScreen: {
-    title: 'Enter PIN',
+    title: 'PIN 입력',
   },
   CreateWalletScreen: {
-    title: 'Create a new wallet',
+    title: '새로운 지갑 만들기',
   },
   CreateOrRestoreWalletScreen: {
     title: 'Add wallet',
