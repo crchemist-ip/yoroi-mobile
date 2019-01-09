@@ -78,15 +78,15 @@ const l10n = {
       yesButton: common.ok,
     },
     biometricsIsTurnedOff: {
-      title: 'Biometrics was turned off',
-      message: 'It seems that you turned off biometrics, please turn it on',
+      生体認証機能が無効になっています。
+      生体認証機能が無効になっています。生体認証を有効に設定してください。
       yesButton: common.ok,
     },
     walletKeysInvalidated: {
-      title: 'Biometrics changed',
+      title: '生体認証が変更されました。',
       message:
-        'We detected that your biometrics in phone changed. ' +
-        'As a result the easy transaction confirmation was disabled ' +
+        ' 端末で生体認証の変更が検出されました。 ' +
+        '生体認証によるトランザクションの承認は行えません。' +
         'and transaction submitting is allowed only with master password. ' +
         'You can re-enable easy transactions confirmation in settings',
       yesButton: 'OK',
