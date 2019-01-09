@@ -114,7 +114,7 @@ const l10n = {
       yesButton: 'OK',
     },
     enableSystemAuthFirst: {
-      title: 'Lock screen disabled',
+      title: 'ロック画面が無効です。',
       message:
         'スマートフォンのロック画面を無効に設定していませんか？ あらかじめ' +
         '簡易トランザクション承認を無効に設定する必要があります。 　
@@ -136,7 +136,7 @@ const l10n = {
   },
   YoroiDescription: {
     line1: 'ヨロイは、Cardanoのためのライトウォレットです。',
-    line2: 'Secure Fast Simple',
+    line2: '安全で、はやくて、シンプル',
     byEmurgo: 'By',
   },
   AppStartScreen: {
