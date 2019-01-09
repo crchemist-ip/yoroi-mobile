@@ -26,7 +26,7 @@ const walletNameErrors = {
 // common translations shared across multiple places
 const common = {
   ok: 'OK',
-  availableFunds: '使用可能な資金',
+  availableFunds: '利用可能な資金',
   pleaseWait: 'お待ちください....',
 }
 
@@ -59,7 +59,7 @@ const l10n = {
   errorDialogs: {
     generalError: (message: string) => ({
       title: '予期せぬエラーが起こりました。',
-      message: `要求された操作を行うことができません。 以下のようなエラーが表示されます。: ${message}`,
+      message: `要求された操作を行うことができません。 エラー内容: ${message}`,
       yesButton: common.ok,
     }),
     pinMismatch: {
@@ -68,13 +68,13 @@ const l10n = {
       yesButton: common.ok,
     },
     incorrectPin: {
-      title: 'Invalid PIN',
-      message: 'The PIN you entered is incorrect.',
+      title: 'PINが無効です。',
+      メッセージ:「入力した PIN が正しくありません 。'、
       yesButton: common.ok,
     },
     incorrectPassword: {
-      title: 'Wrong password',
-      message: 'Password you provided is incorrect.',
+      title: 'パスワードが間違っています。',
+      メッセージ:「入力したパスワードが間違っています 。'、
       yesButton: common.ok,
     },
     biometricsIsTurnedOff: {
