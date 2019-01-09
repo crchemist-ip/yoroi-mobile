@@ -167,52 +167,52 @@ const l10n = {
     paragraph2: [
       inline([
         normal('다른 사람이'),
-        bold('당신의 자금에 엑세스 하지 못하도록 '),
-        normal('화면이 보여지지 않도록 해주십시오.'),
+        bold('지갑의 자금에 대한 접근이 허용되지 않도록 '),
+        normal('화면을 잘 가려서 사용해 주십시오.'),
       ]),
     ],
-    nextButton: 'I understand',
+    nextButton: '내용을 확인했습니다',
   },
   WalletNameAndPasswordForm: {
     walletNameInput: {
-      label: 'Wallet name',
+      label: '지갑명',
       errors: walletNameErrors,
     },
     newPasswordInput: {
-      label: 'Wallet password',
+      label: '지갑 비밀번호',
     },
     repeatPasswordInput: {
-      label: 'Repeat password',
+      label: '비밀번호 재입력',
       errors: {
-        passwordsDoNotMatch: 'Passwords do not match',
+        passwordsDoNotMatch: '비밀번호가 일치하지 않습니다',
       },
     },
-    continueButton: 'Continue',
+    continueButton: '계속',
   },
   PasswordStrengthIndicator: {
-    passwordRequirementsNote: 'The password needs to contain at least:',
-    passwordMinLength: '7 characters',
-    passwordUpperChar: '1 uppercase letter',
-    passwordLowerChar: '1 lowercase letter',
-    passwordNumber: '1 number',
-    continueButton: 'Continue',
-    passwordBigLength: '12 characters',
-    or: 'Or',
+    passwordRequirementsNote: '비밀번호는 적어도:',
+    passwordMinLength: '7개의 문자',
+    passwordUpperChar: '1개의 대문자',
+    passwordLowerChar: '1개의 소문자',
+    passwordNumber: '1개의 숫자를 포함해야 합니다',
+    continueButton: '계속',
+    passwordBigLength: '12개의 문자',
+    or: '또는',
   },
   TransactionHistoryScreeen: {
     syncErrorBanner: {
-      textWithoutRefresh: 'We are experiencing synchronization issues.',
+      textWithoutRefresh: '동기화 문제가 발생하였습니다.',
       textWithRefresh:
-        'We are experiencing synchronization issues. Pull to refresh',
+        'We are experiencing synchronization issues. 새로고침 해주십시오',
     },
     availableFundsBanner: {
       label: common.availableFunds,
     },
-    noTransactions: 'No transactions to show yet',
+    noTransactions: '아직 거래내역이 없습니다',
     transaction: {
       transactionType: {
-        SENT: 'ADA sent',
-        RECEIVED: 'ADA received',
+        SENT: '보낸 ADA',
+        RECEIVED: '받은 ADA',
         SELF: 'Intrawallet',
         MULTI: 'Multiparty',
       },
