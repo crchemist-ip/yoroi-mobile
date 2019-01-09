@@ -87,7 +87,8 @@ const l10n = {
       message:
         ' 端末で生体認証の変更が検出されました。 ' +
         '生体認証によるトランザクションの承認は行えません。' +
-        'and transaction submitting is allowed only with master password. ' +
+        'トランザクションはマスターパスワードによってのみ承認されます。.
+ ' +
         'You can re-enable easy transactions confirmation in settings',
       yesButton: 'OK',
     },
