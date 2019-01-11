@@ -248,7 +248,7 @@ const l10n = {
     addressPrefix: {
       receive: (idx: number) => `/${idx}`,
       change: (idx: number) => '/change',
-      notMine: 'not mine',
+      notMine: '私のではありません。',
     },
   },
   SendAdaScreen: {
@@ -279,11 +279,10 @@ const l10n = {
           // Note(ppershing): first two should be auto-corrected
           // by the input control
           INVALID_AMOUNT: '有効な数を入れてください。',
-          TOO_MANY_DECIMAL_PLACES: 'Please enter valid amount',
- 
+          TOO_MANY_DECIMAL_PLACES: '有効な数を入力してください。,
 
           TOO_LARGE: '数が大きすぎます。',
-          NEGATIVE: '整数を入力してください。',
+          NEGATIVE: '正の数を入力してください。',
         },
         insufficientBalance: '残高が不十分です。',
       },
