@@ -333,33 +333,33 @@ const l10n = {
   ReceiveScreen: {
     title: '受信',
     infoText:
-      'Share this address to receive payments. ' +
-      'To protect your privacy, new addresses are ' +
-      'generated automatically once you use them.',
-    generateButton: 'Generate another address',
+      'このアドレスを共有して支払いを受ける. ' +
+      'プライバシー保護のため、 ' +
+      '新しいアドレスが毎回自動生成されます。.',
+    generateButton: '他のアドレスを生成する。',
     cannotGenerate: 'You have to use some of your addresses',
     freshAddresses: 'Fresh addresses',
-    usedAddresses: 'Used addresses',
+    usedAddresses: '使用されたアドレス',
   },
   AddressDetailsModal: {
-    walletAddress: 'Your wallet address',
+    walletAddress: 'あなたのウォレットのアドレス,
     BIP32path: 'BIP32 path:',
-    copyLabel: 'Copy address',
-    copiedLabel: 'Copied',
+    copyLabel: 'アドレスをコピーする',
+    copiedLabel: 'コピーされました',
   },
   MnemonicShowScreen: {
-    title: 'Recovery phrase',
+    title: '復元フレーズ',
     mnemonicNote:
-      'Please, make sure you have carefully written down your ' +
-      'recovery phrase somewhere safe. ' +
-      'You will need this phrase to use and restore your wallet. ' +
-      'Phrase is case sensitive.',
-    confirmationButton: 'Yes, I have written it down',
+      'この復元フレーズは、どこか安全なところに ' +
+      '必ず控えてください。 ' +
+      'ウォレットの使用及び復元には、復元フレーズが必要です。 ' +
+      '絶対に無くさないでください。',
+    confirmationButton: '復元フレーズを書き留めました。',
   },
   MnemonicBackupImportanceModal: {
-    title: 'Recovery phrase',
+    title: '復元フレーズ',
     keysStorageCheckbox:
-      'I understand that my secret keys are held securely ' +
+      '秘密鍵は、会社のサーバーではなく、' +
       'on this device only, not on the company`s servers',
     newDeviceRecoveryCheckbox:
       'I understand that if this application is moved to another device ' +
