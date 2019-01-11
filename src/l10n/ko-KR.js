@@ -423,7 +423,7 @@ const l10n = {
 
       crashReporting: '크래쉬 보고',
       crashReportingText:
-        'EMURGO로 크래쉬 보고서 보내기. ' +
+        'EMURGO로 크래쉬 보고 보내기. ' +
         '어플리캐이션 재작동 후 ' +
         ' 옵션 변경이 반영됩니다.',
 
