@@ -332,22 +332,22 @@ const l10n = {
       '개인정보를 보호하기 위하여  ' +
       '새로운 주소가 매번 자동생성됩니다.',
     generateButton: '새로운 주소 생성하기',
-    cannotGenerate: 'You have to use some of your addresses',
-    freshAddresses: 'Fresh addresses',
-    usedAddresses: 'Used addresses',
+    cannotGenerate: '기존의 주소들 중 하나를 사용해야 합니다.',
+    freshAddresses: '주소 새로고침',
+    usedAddresses: '이미 사용된 주소',
   },
   AddressDetailsModal: {
-    walletAddress: 'Your wallet address',
+    walletAddress: '당신의 지갑 주소',
     BIP32path: 'BIP32 path:',
-    copyLabel: 'Copy address',
-    copiedLabel: 'Copied',
+    copyLabel: '주소 복사하기',
+    copiedLabel: '복사완료',
   },
   MnemonicShowScreen: {
-    title: 'Recovery phrase',
+    title: '복구 구절',
     mnemonicNote:
-      'Please, make sure you have carefully written down your ' +
-      'recovery phrase somewhere safe. ' +
-      'You will need this phrase to use and restore your wallet. ' +
+      '지갑의 복구구절은 반드시 어딘가에 안전하게 ' +
+      '기록해 두십시오. ' +
+      '복구 구절은 지갑을 사용하고 복원하는데 필요합니다. ' +
       'Phrase is case sensitive.',
     confirmationButton: 'Yes, I have written it down',
   },
