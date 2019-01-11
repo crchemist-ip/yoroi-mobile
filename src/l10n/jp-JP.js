@@ -255,9 +255,9 @@ const l10n = {
     },
   },
   SendAdaScreen: {
-    title: 'Send',
+    title: '送信',
     fee: {
-      label: 'Fee',
+      label: '手数料',
       notAvailable: '-',
     },
     balanceAfter: {
