@@ -457,20 +457,20 @@ const l10n = {
     pleaseWait: common.pleaseWait,
   },
   WalletSelectionScreen: {
-    header: 'Your wallets',
-    addWalletButton: 'Add wallet',
+    header: '지갑',
+    addWalletButton: '지갑 추가',
   },
   BiometricsLinkScreen: {
     enableFingerprintsMessage:
-      'Enable use of fingerprints in device settings first!',
-    notNowButton: 'Not now',
-    linkButton: 'Link',
-    headings: ['Use your fingerprint'],
-    subHeadings: ['for faster, easier access', 'to your Yoroi wallet'],
+      '우선 해당 장치에 지문인식 사용을 활성화 하십시오!',
+    notNowButton: '나중에 하기',
+    linkButton: '링크',
+    headings: ['지문인식을 사용하여'],
+    subHeadings: ['더 빠르고 간편하게 요로이 지갑에 엑세스 하세요'],
   },
   // TODO(ppershing): this localization is a mess
   BiometricsAuthScreen: {
-    authorizeOperation: 'Authorize operation',
+    authorizeOperation: '운영 허가',
     useFallbackButton: 'Use fallback',
     headings: ['Authorize with your', 'fingerprint'],
     cancelButton: 'Cancel',
