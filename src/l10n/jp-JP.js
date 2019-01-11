@@ -291,7 +291,7 @@ const l10n = {
         insufficientBalance: '残高が不十分です。',
       },
     },
-    continueButton: 'Continue',
+    continueButton: '続行',
     errorBanners: {
       // note: offline banner is shared with TransactionHistory
       networkError:
