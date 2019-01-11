@@ -542,21 +542,21 @@ const l10n = {
     },
     PinRegistrationForm: {
       PinInput: {
-        title: 'Enter PIN',
-        subtitle: 'Choose new PIN for quick access to wallet.',
+        title: 'PINを入れてください。',
+        subtitle: '新しいPINを選んで、クイックアクセスを有効にする.',
       },
       PinConfirmationInput: {
-        title: 'Repeat PIN',
+        title: 'PINをもう一度入れてください。',
       },
     },
   },
   EasyConfirmationScreen: {
-    title: 'Easy confirmation',
+    title: '簡易トランザクション承認',
     enable: {
       heading:
-        'This option will allow you to send ADA transactions ' +
-        'from your wallet just by confirming with fingerprint or ' +
-        'face recognition with standard system fallback option. ' +
+        '簡易トランザクション承認とは、指紋認証や顔認証 ' +
+        'を用いて、ADAのトランザクションを行うものです。 ' +
+        　 ' +
         'This makes your wallet less secure. This is a compromise ' +
         'between UX and security!',
       warning:
