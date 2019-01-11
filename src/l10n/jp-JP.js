@@ -498,12 +498,12 @@ const l10n = {
         '復元フレーズを保持していることを確認してください。',
       paragraph2: 'To confirm this operation type the wallet name below.',
     },
-    walletName: 'Wallet name',
-    walletNameInput: 'Wallet name',
-    remove: 'Remove wallet',
+    walletName: 'ウォレット名',
+    walletNameInput: 'ウォレット名'
+    removeWallet: 'ウォレットを消去',
     hasWrittenDownMnemonic:
-      'I have written down mnemonic of this wallet and understand ' +
-      'that I cannot recover the wallet without it.',
+      '復元フレーズを書き留め、これがないとウォレットを復元 ' +
+      'できないことを理解しました。',
   },
 
   ChoosePinScreen: {
