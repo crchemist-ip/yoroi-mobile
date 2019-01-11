@@ -360,12 +360,12 @@ const l10n = {
     title: '復元フレーズ',
     keysStorageCheckbox:
       '秘密鍵は、会社のサーバーではなく、' +
-      'このデバイス上にのみ保存されることを理解しています。',
+      'このデバイス上にのみ保存されることを理解しました。',
     newDeviceRecoveryCheckbox:
-      'I understand that if this application is moved to another device ' +
-      'or delete, my money can be only recovered with the backup phrase that ' +
-      'I have written down and saved in secure place.',
-    confirmationButton: 'I understand',
+      'アプリを別のデバイスに移動させたり、消去した場合、 ' +
+      '自分が控えた復元フレーズを使用してのみ、資金が復元されることを ' +
+      '理解しました。',
+    confirmationButton: 'はい',
   },
   MnemonicCheckScreen: {
     title: 'Recovery phrase',
