@@ -437,23 +437,23 @@ const l10n = {
       label: '자주 묻는 질문 보기',
       description:
         '문제가 발생할 경우 요로이 웹사이트에서 ' +
-        'FAQ의 자주 발생하는 문제란을 확인해 주십시오.',
+        'FAQ를 확인해 주십시오.',
       url: 'https://yoroi-wallet.com/faq/',
     },
     report: {
       label: '문제 보고하기',
       description:
-        'If the FAQ does not solve the issue you are ' +
-        'experiencing, please use our Support request feature.',
+        'FAQ에서 문제가 해결되지 않은 경우에는, ' +
+        '저희 지원 요청 기능을 이용해 주십시오.',
       url: 'https://yoroi-wallet.com/support/',
     },
   },
   TermsOfServiceScreen: {
-    title: 'Terms of Service Agreement',
+    title: '서비스 이용약관 동의서',
     content: termsOfService,
-    aggreeClause: 'I agree with terms of service',
-    continueButton: 'Accept',
-    savingConsentModalTitle: 'Initializing',
+    aggreeClause: '서비스 이용약관에 동의합니다',
+    continueButton: '동의',
+    savingConsentModalTitle: '초기화',
     pleaseWait: common.pleaseWait,
   },
   WalletSelectionScreen: {
