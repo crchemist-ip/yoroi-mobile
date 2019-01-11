@@ -124,7 +124,7 @@ const l10n = {
     },
     wrongPinError: {
       title: 'PINが無効です。',
-      メッセージ: 'PIN が正しくありません 。'、
+      メッセージ: 'PIN が正しくありません 。',
       yesButton: 'OK',
     },
   },
@@ -156,7 +156,7 @@ const l10n = {
     paragraph1: [
       inline([
         normal(
-          '次の画面で、任意の15個の言葉が表示されます。. ', ',
+          '次の画面で、任意の15個の言葉が表示されます。 ',
         ),
         normal('これはあなたの '),
         bold('ウォレットの復元フレーズです。 '),
@@ -191,21 +191,20 @@ const l10n = {
     continueButton: '続行',
   },
   PasswordStrengthIndicator: {
-    passwordRequirementsNote: パスワードは、:',
-    passwordMinLength: '大小1文字以上ずつの英語＋',
-    passwordUpperChar: '任意の一つ以上の数字からなる、',
-    passwordLowerChar: '7~12文字で構成してください。,
-
-     
-     continueButton: '続行',
-     
+    passwordRequirementsNote: 'パスワードは、:',
+    passwordMinLength: '7文字',
+    passwordUpperChar: '大文字',
+    passwordLowerChar: '小文字',
+    passwordNumber: '1数字',
+    continueButton: '続行',
+    passwordBigLength: '12文字',
     or: 'または',
   },
   TransactionHistoryScreeen: {
     syncErrorBanner: {
       textWithoutRefresh: '同期エラーが発生しています。',
       textWithRefresh:
-        '同期エラーが発生しています。. 再読み込みしてください',
+        '同期エラーが発生しています。 再読み込みしてください',
     },
     availableFundsBanner: {
       label: common.availableFunds,
@@ -226,10 +225,10 @@ const l10n = {
         PENDING: 'Pending',
         FAILED: 'Failed',
       },
-      fee: 'Fee:',
+      fee: '手数料:',
     },
     sendButton: '送信',
-    receiveButton: '',受信
+    receiveButton: '受信',
   },
   TransactionDetailsScreen: {
     transactionType: {
@@ -238,7 +237,7 @@ const l10n = {
       SELF: 'Intrawallet transaction',
       MULTI: 'Multi-party transaction',
     },
-    fee: 'Fee: ',
+    fee: '手数料: ',
     fromAddresses: 'From Addresses',
     toAddresses: 'To Addresses',
     transactionId: 'Transaction ID',
