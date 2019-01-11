@@ -261,33 +261,34 @@ const l10n = {
       notAvailable: '-',
     },
     balanceAfter: {
-      label: 'Balance after',
+      label: 'その後の残高',
       notAvailable: '-',
     },
     availableFundsBanner: {
       label: common.availableFunds,
-      isFetching: 'Checking balance...',
+      sFetching: '残高を確認しています...',
       notAvailable: '-',
     },
     addressInput: {
-      label: 'Address',
+      label: 'アドレス',
       errors: {
-        invalidAddress: 'Please enter valid address',
+        invalidAddress: '有効なアドレスを入力してください。',
       },
     },
     amountInput: {
-      label: 'Amount',
+      label: '数',
       errors: {
         invalidAmount: {
           // Note(ppershing): first two should be auto-corrected
           // by the input control
-          INVALID_AMOUNT: 'Please enter valid amount',
+          INVALID_AMOUNT: '有効な数を入れてください。',
           TOO_MANY_DECIMAL_PLACES: 'Please enter valid amount',
+ 
 
-          TOO_LARGE: 'Amount too large',
-          NEGATIVE: 'Amount must be positive',
+          TOO_LARGE: '数が大きすぎます。',
+          NEGATIVE: '整数を入力してください。',
         },
-        insufficientBalance: 'Not enough money to make this transaction',
+        insufficientBalance: '残高が不十分です。',
       },
     },
     continueButton: 'Continue',
