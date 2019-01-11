@@ -353,7 +353,7 @@ const l10n = {
       'この復元フレーズは、どこか安全なところに ' +
       '必ず控えてください。 ' +
       'ウォレットの使用及び復元には、復元フレーズが必要です。 ' +
-      '絶対に無くさないでください。',
+      ' フレーズの大文字小文字を区別してください。',
     confirmationButton: '復元フレーズを書き留めました。',
   },
   MnemonicBackupImportanceModal: {
@@ -368,24 +368,26 @@ const l10n = {
     confirmationButton: 'はい',
   },
   MnemonicCheckScreen: {
-    title: 'Recovery phrase',
+    title: '復元フレーズ',
     instructions:
-      'Tap each word in the correct order to verify your recovery phrase',
+      '正しい順序でワードをタップして、復元フレーズを有効化してください。',
+
     mnemonicWordsInput: {
-      label: 'Recovery phrase',
+      label: '復元フレーズ',
       errors: {
-        invalidPhrase: 'Recovery phrase does not match',
+        invalidPhrase: '復元フレーズが間違っています。',
       },
     },
-    clearButton: 'Clear',
-    confirmButton: 'Confirm',
+    clearButton: '消去',
+    confirmButton: '承認',
   },
   RestoreWalletScreen: {
-    title: 'Restore wallet',
+    title: 'ウォレットの復元,
     instructions:
-      'To restore your wallet please provide the recovery phrase you ' +
-      'received when you created your wallet for the first time.',
-    mnemonicInput: {
+      'ウォレットの復元には、復元フレーズが必要です。' +
+      '復元フレーズは、一回目に使用したときに作成されたものです。',
+ 
+     mnemonicInput: {
       label: 'Recovery phrase',
       errors: {
         TOO_LONG: 'Phrase is too long. ',
