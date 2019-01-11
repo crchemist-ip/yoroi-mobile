@@ -529,16 +529,16 @@ const l10n = {
     repeatPasswordInput: {
       label: '新しいパスワードをもう一度入力してください。',
       errors: {
-        passwordsDoNotMatch: 'Passwords do not match',
+        passwordsDoNotMatch: 'パスワードが間違っています。',
       },
     },
-    continueButton: 'Change password',
+    continueButton: 'パスワードを変更する',
   },
   ChangeCustomPinScreen: {
-    title: 'Change PIN',
+    title: 'PINを変更する',
     CurrentPinInput: {
-      title: 'Enter PIN',
-      subtitle: 'Enter your current PIN',
+      title: 'PINを入れてください。',
+      subtitle: '現在のPINを入れてください',
     },
     PinRegistrationForm: {
       PinInput: {
