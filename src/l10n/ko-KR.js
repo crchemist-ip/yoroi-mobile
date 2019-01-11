@@ -424,24 +424,24 @@ const l10n = {
       crashReporting: '크래쉬 보고',
       crashReportingText:
         'EMURGO로 크래쉬 보고서 보내기. ' +
-        '옵션 변경이 반영됩니다 ' +
-        ' 어플리캐이션 재작동 후.',
+        '어플리캐이션 재작동 후 ' +
+        ' 옵션 변경이 반영됩니다.',
 
-      termsOfUse: 'Terms of Use',
-      support: 'Support',
+      termsOfUse: '이용 약관',
+      support: '지원',
     },
   },
   SupportScreen: {
-    title: 'Support',
+    title: '지원',
     faq: {
-      label: 'See frequently asked questions',
+      label: '자주 묻는 질문 보기',
       description:
-        'If you are experiencing issues, please see the FAQ ' +
-        'on Yoroi website for quidance on known issues.',
+        '문제가 발생할 경우 요로이 웹사이트에서 ' +
+        'FAQ의 자주 발생하는 문제란을 확인해 주십시오.',
       url: 'https://yoroi-wallet.com/faq/',
     },
     report: {
-      label: 'Report a problem',
+      label: '문제 보고하기',
       description:
         'If the FAQ does not solve the issue you are ' +
         'experiencing, please use our Support request feature.',
