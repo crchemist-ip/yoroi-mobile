@@ -491,60 +491,60 @@ const l10n = {
         '반드시 복구구절을 적어 두었는지 확인해 주십시오.',
       paragraph2: 'To confirm this operation type the wallet name below.',
     },
-    walletName: 'Wallet name',
-    walletNameInput: 'Wallet name',
-    remove: 'Remove wallet',
+    walletName: '지갑명',
+    walletNameInput: '지갑명',
+    remove: '지갑 삭제',
     hasWrittenDownMnemonic:
-      'I have written down mnemonic of this wallet and understand ' +
-      'that I cannot recover the wallet without it.',
+      '본인은 지갑의 복구 구절을 적어 두었고, 이 복구 구절이 없이는 ' +
+      '지갑을 복구할 수 없다는 것을 이해합니다.',
   },
 
   ChoosePinScreen: {
-    title: 'Set PIN',
+    title: 'PIN 지정',
     PinRegistrationForm: {
       PinInput: {
-        title: 'Enter the PIN',
-        subtitle: 'Choose new PIN for quick access to wallet.',
+        title: 'PIN 입력',
+        subtitle: '신속한 엑세스를 위해 새로운 PIN을 선택.',
       },
       PinConfirmationInput: {
-        title: 'Repeat PIN',
+        title: 'PIN 재입력',
       },
     },
   },
   ChangePasswordScreen: {
-    title: 'Change wallet password',
+    title: '비밀번호 변경',
     oldPasswordInput: {
-      label: 'Current password',
+      label: '현재 비밀번호',
     },
     newPasswordInput: {
-      label: 'New password',
+      label: '새로운 비밀번호',
     },
     repeatPasswordInput: {
-      label: 'Repeat new password',
+      label: '새로운 비밀번호 재입력',
       errors: {
-        passwordsDoNotMatch: 'Passwords do not match',
+        passwordsDoNotMatch: '비밀번호가 일치하지 않습니다',
       },
     },
-    continueButton: 'Change password',
+    continueButton: '비밀번호 변경',
   },
   ChangeCustomPinScreen: {
-    title: 'Change PIN',
+    title: 'PIN 변경',
     CurrentPinInput: {
-      title: 'Enter PIN',
-      subtitle: 'Enter your current PIN',
+      title: 'PIN 입력',
+      subtitle: '현재 사용하고 있는 PIN을 입력해 주십시오',
     },
     PinRegistrationForm: {
       PinInput: {
-        title: 'Enter PIN',
+        title: 'PIN 입력',
         subtitle: 'Choose new PIN for quick access to wallet.',
       },
       PinConfirmationInput: {
-        title: 'Repeat PIN',
+        title: 'PIN 재입력',
       },
     },
   },
   EasyConfirmationScreen: {
-    title: 'Easy confirmation',
+    title: '간편 승인',
     enable: {
       heading:
         'This option will allow you to send ADA transactions ' +
