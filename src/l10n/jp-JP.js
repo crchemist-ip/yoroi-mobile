@@ -219,11 +219,11 @@ const l10n = {
       },
       assuranceLevelHeader: '確信度',
       assuranceLevel: {
-        LOW: 'Low',
-        MEDIUM: 'Medium',
-        HIGH: 'High',
-        PENDING: 'Pending',
-        FAILED: 'Failed',
+        LOW: '低度',
+        MEDIUM: '中度',
+        HIGH: '高度',
+        PENDING: '保留',
+        FAILED: '失敗しました',
       },
       fee: '手数料:',
     },
@@ -334,7 +334,7 @@ const l10n = {
       '新しいアドレスが毎回自動生成されます。',
     generateButton: '他のアドレスを生成する。',
     cannotGenerate: 'You have to use some of your addresses',
-    freshAddresses: 'Fresh addresses',
+    freshAddresses: '新しいアドレス',
     usedAddresses: '使用されたアドレス',
   },
   AddressDetailsModal: {
@@ -427,8 +427,8 @@ const l10n = {
       crashReporting: 'クラッシュ報告',
       crashReportingText:
         'Emurgoにクラッシュレポートを送る。 ' +
-        'Changes to this option will be reflected ' +
-        ' after restarting the application.',
+        'このオプションの変更は、アプリケーションの ' +
+        ' 再起動後に反映されます。',
 
       termsOfUse: '利用規約',
       support: 'サポート',
@@ -492,7 +492,7 @@ const l10n = {
       paragraph1:
         'ウォレットを完全に消去したい場合は、' +
         '復元フレーズを保持していることを確認してください。',
-      paragraph2: 'To confirm this operation type the wallet name below.',
+      paragraph2: '操作を承認するために、ウォレット名を下にタイプしてください。',
     },
     walletName: 'ウォレット名',
     walletNameInput: 'ウォレット名'
