@@ -56,8 +56,8 @@ const l10n = {
   },
   errorDialogs: {
     generalError: (message: string) => ({
-      title: '에러가 발생했습니다',
-      message: `요청한 작업을 수행하지 못했습니다. 아래와 같은 에러가 발생했습니다: ${message}`,
+      title: '오류가 발생했습니다',
+      message: `요청한 작업을 수행하지 못했습니다. 아래와 같은 오류가 발생했습니다: ${message}`,
       yesButton: common.ok,
     }),
     pinMismatch: {
@@ -90,7 +90,7 @@ const l10n = {
       yesButton: 'OK',
     },
     networkError: {
-      title: '네트워크 에러',
+      title: '네트워크 오류',
       message:
         '서버에 접속하는데 문제가 발생했습니다. ' +
         '인터넷이 연결되어 있는지 확인해 주십시오.',
@@ -472,23 +472,23 @@ const l10n = {
   BiometricsAuthScreen: {
     authorizeOperation: '운영 허가',
     useFallbackButton: 'Use fallback',
-    headings: ['Authorize with your', 'fingerprint'],
-    cancelButton: 'Cancel',
+    headings: ['지문인식을 사용하여', '허가하기'],
+    cancelButton: '취소',
     errors: {
-      NOT_RECOGNIZED: 'Fingerprint was not recognized try again',
-      SENSOR_LOCKOUT: 'You used too many fingers sensor is disabled',
+      NOT_RECOGNIZED: '지문이 인식되지 않았습니다. 다시 시도해 주십시오',
+      SENSOR_LOCKOUT: '너무 많은 손가락을 사용하여 센서가 비활성화 되었습니다',
       SENSOR_LOCKOUT_PERMANENT:
         'You permanently locked out your fingerprint sensor. Use fallback.',
       DECRYPTION_FAILED: 'Fingerprint sensor failed please use fallback',
-      UNKNOWN_ERROR: 'Unknown error',
+      UNKNOWN_ERROR: '알 수 없는 오류',
     },
   },
   RemoveWalletScreen: {
-    title: 'Remove wallet',
+    title: '지갑 삭제',
     description: {
       paragraph1:
-        'If you really wish to permanently delete the wallet ' +
-        'make sure you have written down the mnemonic.',
+        '지갑을 영구적으로 지우길 원할 경우에는 ' +
+        '반드시 복구구절을 적어 두었는지 확인해 주십시오.',
       paragraph2: 'To confirm this operation type the wallet name below.',
     },
     walletName: 'Wallet name',
