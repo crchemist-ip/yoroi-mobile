@@ -392,7 +392,7 @@ const l10n = {
       errors: {
         TOO_LONG: 'フレーズが長すぎます。 ',
         TOO_SHORT: 'フレーズが短すぎます。 ',
-        INVALID_CHECKSUM: 'Please enter valid mnemonic.',
+        INVALID_CHECKSUM: '有効な復元フレーズを入力してください。.',
         UNKNOWN_WORDS: (words: Array<string>) => {
           const wordlist = words.map((word) => `'${word}'`).join(', ')
           const areInvalid = `${pluralizeEn(words.length, 'is', 'are')} invalid`
@@ -451,51 +451,51 @@ const l10n = {
       label: '問題を報告する',
       description:
         'FAQで問題が解決しない場合は、 ' +
-        'experiencing, please use our Support request feature.',
+        'サポートリクエストを利用してください。',
       url: 'https://yoroi-wallet.com/support/',
     },
   },
   TermsOfServiceScreen: {
-    title: 'Terms of Service Agreement',
+    title: '契約条件',
     content: termsOfService,
-    aggreeClause: 'I agree with terms of service',
-    continueButton: 'Accept',
-    savingConsentModalTitle: 'Initializing',
+    aggreeClause: '契約に同意します。',
+    continueButton: '同意',
+    savingConsentModalTitle: '初期化',
     pleaseWait: common.pleaseWait,
   },
   WalletSelectionScreen: {
-    header: 'Your wallets',
-    addWalletButton: 'Add wallet',
+    header: 'あなたのウォレット',
+    addWalletButton: 'ウォレットを追加する',
   },
   BiometricsLinkScreen: {
     enableFingerprintsMessage:
-      'Enable use of fingerprints in device settings first!',
-    notNowButton: 'Not now',
-    linkButton: 'Link',
-    headings: ['Use your fingerprint'],
-    subHeadings: ['for faster, easier access', 'to your Yoroi wallet'],
+      '設定で指紋認証を有効にしてください。',
+    notNowButton: '後で行う',
+    linkButton: 'リンク',
+    headings: ['指紋認証を使用して、'],
+    subHeadings: ['安全に手早く', 'ウォレットにアクセス'],
   },
   // TODO(ppershing): this localization is a mess
   BiometricsAuthScreen: {
-    authorizeOperation: 'Authorize operation',
-    useFallbackButton: 'Use fallback',
-    headings: ['Authorize with your', 'fingerprint'],
-    cancelButton: 'Cancel',
+    authorizeOperation: 'オペレーションの権限を委任する',
+    useFallbackButton: '戻る',
+    headings: ['指紋認証を', '承認する'],
+    cancelButton: 'キャンセル',
     errors: {
-      NOT_RECOGNIZED: 'Fingerprint was not recognized try again',
+      NOT_RECOGNIZED: '指紋認証を認識できません。再試行してください。',
       SENSOR_LOCKOUT: 'You used too many fingers sensor is disabled',
       SENSOR_LOCKOUT_PERMANENT:
         'You permanently locked out your fingerprint sensor. Use fallback.',
-      DECRYPTION_FAILED: 'Fingerprint sensor failed please use fallback',
-      UNKNOWN_ERROR: 'Unknown error',
+      DECRYPTION_FAILED: '指紋認証に失敗しました。一度戻ってください。',
+      UNKNOWN_ERROR: '不明のエラーr',
     },
   },
   RemoveWalletScreen: {
-    title: 'Remove wallet',
+    title: 'ウォレットを消去',
     description: {
       paragraph1:
-        'If you really wish to permanently delete the wallet ' +
-        'make sure you have written down the mnemonic.',
+        'ウォレットを完全に消去したい場合は、' +
+        '復元フレーズを保持していることを確認してください。',
       paragraph2: 'To confirm this operation type the wallet name below.',
     },
     walletName: 'Wallet name',
