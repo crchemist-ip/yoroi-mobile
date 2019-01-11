@@ -557,7 +557,7 @@ const l10n = {
         '簡易トランザクション承認とは、指紋認証や顔認証 ' +
         'を用いて、ADAのトランザクションを行うものです。 ' +
         　 ' +
-        'This makes your wallet less secure. This is a compromise ' +
+        'これによってセキュリティが弱くなります。 This is a compromise ' +
         'between UX and security!',
       warning:
         'Please remember your master password, as you may need it ' +
