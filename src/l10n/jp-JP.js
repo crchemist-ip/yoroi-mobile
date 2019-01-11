@@ -391,7 +391,7 @@ const l10n = {
       label: '復元フレーズ',
       errors: {
         TOO_LONG: 'フレーズが長すぎます。 ',
-        TOO_SHORT: 'Phrase is too short. ',
+        TOO_SHORT: 'フレーズが短すぎます。 ',
         INVALID_CHECKSUM: 'Please enter valid mnemonic.',
         UNKNOWN_WORDS: (words: Array<string>) => {
           const wordlist = words.map((word) => `'${word}'`).join(', ')
@@ -400,57 +400,57 @@ const l10n = {
         },
       },
     },
-    restoreButton: 'Restore wallet',
+    restoreButton: 'ウォレットの復元',
   },
   SettingsScreen: {
     WalletTab: {
-      title: 'Settings',
-      tabTitle: 'Wallet',
+      title: '設定',
+      tabTitle: 'ウォレット',
 
-      switchWallet: 'Switch wallet',
-      logout: 'Logout',
+      switchWallet: 'ウォレットを変える',
+      logout: 'ログアウト',
 
-      walletName: 'Wallet name',
+      walletName: 'ウォレット名',
 
-      security: 'Security',
-      changePassword: 'Change password',
-      easyConfirmation: 'Easy transaction confirmation',
+      security: 'セキュリティ',
+      changePassword: 'パスワードを変更する ',
+      easyConfirmation: '簡易トランザクション承認',
 
-      removeWallet: 'Remove wallet',
+      removeWallet: 'ウォレットを消去する',
     },
     ApplicationTab: {
-      title: 'Settings',
-      tabTitle: 'Application',
+      title: '設定',
+      tabTitle: 'アプリケーション',
 
-      language: 'Your language',
+      language: '言語',
 
-      security: 'Security',
-      changePin: 'Change PIN',
-      biometricsSignIn: 'Sign in with your biometrics',
+      security: 'セキュリティ',
+      changePin: 'PINを変える',
+      biometricsSignIn: '生体認証を使ってサインイン',
 
-      crashReporting: 'Crash reporting',
+      crashReporting: 'クラッシュ報告',
       crashReportingText:
-        'Send crash reports to Emurgo. ' +
+        'Emurgoにクラッシュレポートを送る. ' +
         'Changes to this option will be reflected ' +
         ' after restarting the application.',
 
-      termsOfUse: 'Terms of Use',
-      support: 'Support',
+      termsOfUse: '利用規約',
+      support: 'サポート',
     },
   },
   SupportScreen: {
-    title: 'Support',
+    title: 'サポート',
     faq: {
-      label: 'See frequently asked questions',
+      label: 'よくある質問を見る',
       description:
-        'If you are experiencing issues, please see the FAQ ' +
-        'on Yoroi website for quidance on known issues.',
+        '問題が起こりましたら、ヨロイウェブサイトのFAQ ' +
+        'をご参照ください。',
       url: 'https://yoroi-wallet.com/faq/',
     },
     report: {
-      label: 'Report a problem',
+      label: '問題を報告する',
       description:
-        'If the FAQ does not solve the issue you are ' +
+        'FAQで問題が解決しない場合は、 ' +
         'experiencing, please use our Support request feature.',
       url: 'https://yoroi-wallet.com/support/',
     },
