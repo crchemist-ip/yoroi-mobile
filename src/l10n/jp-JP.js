@@ -507,27 +507,27 @@ const l10n = {
   },
 
   ChoosePinScreen: {
-    title: 'Set PIN',
+    title: 'PINを設定する',
     PinRegistrationForm: {
       PinInput: {
-        title: 'Enter the PIN',
-        subtitle: 'Choose new PIN for quick access to wallet.',
+        title: 'PINを入力する',
+        subtitle: '新しいPINを選んで、クイックアクセスを有効にする.',
       },
       PinConfirmationInput: {
-        title: 'Repeat PIN',
+        title: 'PINもう一度入力してください。',
       },
     },
   },
   ChangePasswordScreen: {
-    title: 'Change wallet password',
+    title: 'ウォレットのパスワードを変更する',
     oldPasswordInput: {
-      label: 'Current password',
+      label: '現在のパスワード',
     },
     newPasswordInput: {
-      label: 'New password',
+      label: '新しいパスワード',
     },
     repeatPasswordInput: {
-      label: 'Repeat new password',
+      label: '新しいパスワードをもう一度入力してください。',
       errors: {
         passwordsDoNotMatch: 'Passwords do not match',
       },
