@@ -360,7 +360,7 @@ const l10n = {
     title: '復元フレーズ',
     keysStorageCheckbox:
       '秘密鍵は、会社のサーバーではなく、' +
-      'on this device only, not on the company`s servers',
+      'このデバイス上にのみ保存されることを理解しています。',
     newDeviceRecoveryCheckbox:
       'I understand that if this application is moved to another device ' +
       'or delete, my money can be only recovered with the backup phrase that ' +
