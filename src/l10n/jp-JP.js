@@ -333,7 +333,7 @@ const l10n = {
       'プライバシー保護のため、 ' +
       '新しいアドレスが毎回自動生成されます。',
     generateButton: '他のアドレスを生成する。',
-    cannotGenerate: 'You have to use some of your addresses',
+    cannotGenerate: 'アドレスをいくつか使用する必要があります。',
     freshAddresses: '新しいアドレス',
     usedAddresses: '使用されたアドレス',
   },
