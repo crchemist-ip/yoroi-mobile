@@ -388,9 +388,9 @@ const l10n = {
       '復元フレーズは、一回目に使用したときに作成されたものです。',
  
      mnemonicInput: {
-      label: 'Recovery phrase',
+      label: '復元フレーズ',
       errors: {
-        TOO_LONG: 'Phrase is too long. ',
+        TOO_LONG: 'フレーズが長すぎます。 ',
         TOO_SHORT: 'Phrase is too short. ',
         INVALID_CHECKSUM: 'Please enter valid mnemonic.',
         UNKNOWN_WORDS: (words: Array<string>) => {
