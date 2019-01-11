@@ -326,12 +326,12 @@ const l10n = {
     changeButton: '이름 변경',
   },
   ReceiveScreen: {
-    title: 'Receive',
+    title: '받기',
     infoText:
-      'Share this address to receive payments. ' +
-      'To protect your privacy, new addresses are ' +
-      'generated automatically once you use them.',
-    generateButton: 'Generate another address',
+      '송금을 받기위해서는 이 주소를 공유해 주십시오. ' +
+      '개인정보를 보호하기 위하여  ' +
+      '새로운 주소가 매번 자동생성됩니다.',
+    generateButton: '새로운 주소 생성하기',
     cannotGenerate: 'You have to use some of your addresses',
     freshAddresses: 'Fresh addresses',
     usedAddresses: 'Used addresses',
