@@ -296,42 +296,42 @@ const l10n = {
       // note: offline banner is shared with TransactionHistory
       networkError:
         'We are experiencing issues with fetching your current balance. ' +
-        'Click to retry.',
+        'クリックしてリトライ.',
       pendingOutgoingTransaction:
-        'You cannot send a new transaction while ' +
-        'an existing one is still pending',
+        '既存のトランザクションが進行中の時は、 ' +
+        '新しいトランザクションを行えません。',
     },
   },
   ReadQRCodeAddressScreen: {
-    title: 'Scan QR code address',
+    title: 'QRコードアドレスをスキャンしてください。',
   },
   ConfirmSendAdaScreen: {
-    title: 'Send',
-    amount: 'Amount',
+    title: '送信',
+    amount: '数',
     availableFundsBanner: {
       label: common.availableFunds,
     },
     balanceAfterTx: 'Balance after transaction',
-    fees: 'Fees',
-    password: 'Wallet password',
-    receiver: 'Receiver',
-    confirmButton: 'Confirm',
-    sendingModalTitle: 'Submitting transaction',
+    fees: '手数料',
+    password: 'ウォレットのパスワード',
+    receiver: '受信者',
+    confirmButton: '承認',
+    sendingModalTitle: 'トランザクションの承認',
     pleaseWait: common.pleaseWait,
   },
   WalletCredentialsScreen: {
     title: 'Wallet credentials',
   },
   ChangeWalletNameScreen: {
-    title: 'Change wallet name',
+    title: 'ウォレット名を変更する',
     walletNameInput: {
-      label: 'Wallet name',
+      label: 'ウォレット名',
       errors: walletNameErrors,
     },
-    changeButton: 'Change name',
+    changeButton: '名前を変更する',
   },
   ReceiveScreen: {
-    title: 'Receive',
+    title: '受信',
     infoText:
       'Share this address to receive payments. ' +
       'To protect your privacy, new addresses are ' +
