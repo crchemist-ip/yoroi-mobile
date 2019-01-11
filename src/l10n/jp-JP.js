@@ -220,7 +220,7 @@ const l10n = {
         SELF: 'Intrawallet',
         MULTI: 'Multiparty',
       },
-      assuranceLevelHeader: 'Assurance level:',
+      assuranceLevelHeader: '確信度',
       assuranceLevel: {
         LOW: 'Low',
         MEDIUM: 'Medium',
@@ -561,23 +561,23 @@ const l10n = {
 
         'どっちを重要視するかという選択になります。',
       注意:
-        'Please remember your master password, as you may need it ' +
-        'in case your biometrics data are removed from the device.',
-      masterPassword: 'Master password',
-      enableButton: 'Enable',
+        'あなたのマスターパスワードは、 ' +
+        '生体認証データがデバイスから消えた場合に必要です。',
+      masterPassword: 'マスターパスワード',
+      enableButton: '有効にする',
     },
     disable: {
       heading:
-        'By disabling this option you will be able to spend your ADA ' +
-        'only with master password.',
-      disableButton: 'Disable',
+        '生体認証を無効にすると、マスターパスワードによってのみ ' +
+        'ADAを送信できます。',
+      disableButton: '無効にする',
     },
   },
   Biometry: {
-    approveTransaction: 'Authorize with your fingerprint',
+    approveTransaction: '指紋認証を許可する',
     subtitle: '', // subtitle for the biometry dialog Andoid 9
     description: '', // description of the biometry dialog Android 9
-    cancelButton: 'Cancel',
+    cancelButton: 'キャンセル',
   },
 }
 
