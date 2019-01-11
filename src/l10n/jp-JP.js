@@ -33,8 +33,8 @@ const common = {
 // ios system translations
 const ios = {
   NSFaceIDUsageDescription:
-    'FaceIDを使って、安全・簡単に口座にアクセスすることができます。',
-  NSCameraUsageDescription: 'カメラを使って、QRコードを読み取ることができます。.',
+    'FaceIDを使って、口座に安全・簡単にアクセスすることができます。',
+  NSCameraUsageDescription: 'カメラを使って、QRコードを読み取ることができます。',
 }
 
 const l10n = {
@@ -43,8 +43,7 @@ const l10n = {
     datetime,
     ios,
     notifications: {
-      offline: 'オフラインになっています。 デバイスの設定を確認してください。.',
- 
+      offline: 'オフラインになっています。 デバイスの設定を確認してください。',
     },
     currentLanguageName: '英語',
   },
@@ -64,7 +63,7 @@ const l10n = {
     }),
     pinMismatch: {
       title: 'PINが無効です',
-      message: 'PINが間違っています。.',
+      message: 'PINが間違っています。',
       yesButton: common.ok,
     },
     incorrectPin: {
@@ -74,12 +73,12 @@ const l10n = {
     },
     incorrectPassword: {
       title: 'パスワードが間違っています。',
-      message: 'パスワードが間違っています。.',
+      message: 'パスワードが間違っています。',
       yesButton: common.ok,
     },
     biometricsIsTurnedOff: {
-      生体認証機能が無効になっています。
-      生体認証機能が無効になっています。生体認証を有効に設定してください。
+      title: ' 生体認証機能が無効になっています。',
+      message: '生体認証機能が無効になっています。生体認証を有効に設定してください。',
       yesButton: common.ok,
     },
     walletKeysInvalidated: {
@@ -87,15 +86,14 @@ const l10n = {
       message:
         ' 端末で生体認証の変更が検出されました。 ' +
         'これにより簡易トランザクション承認が無効になりました。' +
-        'トランザクションはマスターパスワードによってのみ承認されます。.
- ' +
-        '設定で'簡易トランザクション承認を有効にできます。,
+        'トランザクションはマスターパスワードによってのみ承認されます。 ' +
+        '設定で'簡易トランザクション承認を有効にできます。',
       yesButton: 'OK',
     },
     networkError: {
       title: 'ネットワークエラー',
       message:
-        'サーバーに接続できません. ' +
+        'サーバーに接続できません。 ' +
         'インターネットの接続を確認してください。',
       yesButton: common.ok,
     },
