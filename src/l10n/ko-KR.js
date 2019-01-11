@@ -348,8 +348,8 @@ const l10n = {
       '지갑의 복구구절은 반드시 어딘가에 안전하게 ' +
       '기록해 두십시오. ' +
       '복구 구절은 지갑을 사용하고 복원하는데 필요합니다. ' +
-      'Phrase is case sensitive.',
-    confirmationButton: 'Yes, I have written it down',
+      '대소문자를 구분해야 합니다.',
+    confirmationButton: '위 내용을 확인했습니다',
   },
   MnemonicBackupImportanceModal: {
     title: 'Recovery phrase',
