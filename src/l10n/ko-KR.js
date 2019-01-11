@@ -347,45 +347,45 @@ const l10n = {
     mnemonicNote:
       '지갑의 복구구절은 반드시 어딘가에 안전하게 ' +
       '기록해 두십시오. ' +
-      '복구 구절은 지갑을 사용하고 복원하는데 필요합니다. ' +
+      '복구 구절은 지갑을 사용하고 복구하는데 필요합니다. ' +
       '대소문자를 구분해야 합니다.',
     confirmationButton: '위 내용을 확인했습니다',
   },
   MnemonicBackupImportanceModal: {
     title: '복구 구절',
     keysStorageCheckbox:
-      '사용자의 비밀키가 회사 서버가 아닌 개인 장치에만 ' +
-      '안전하게 보관되는 것을 이해하였습니다',
+      '본인은, 사용자의 비밀키가 회사 서버가 아닌 개인 장치에 ' +
+      '안전하게 보관된다는 것을 이해하였습니다',
     newDeviceRecoveryCheckbox:
-      'I understand that if this application is moved to another device ' +
-      'or delete, my money can be only recovered with the backup phrase that ' +
-      'I have written down and saved in secure place.',
-    confirmationButton: 'I understand',
+      '본인은, 해당 어플리케이션이 다른 장치로 이동되거나 ' +
+      '삭제되었을 경우, 계좌의 복원은 본인이 안전한 곳에 적어둔 복구 구절을 ' +
+      '이용해서만 복원이 가능하다는 것을 이해하였습니다.',
+    confirmationButton: '위 내용을 확인하였습니다',
   },
   MnemonicCheckScreen: {
-    title: 'Recovery phrase',
+    title: '복구 구절',
     instructions:
-      'Tap each word in the correct order to verify your recovery phrase',
+      '복구 구절을 인증하려면 각 단어를 정확한 순서대로 나열하십시오',
     mnemonicWordsInput: {
-      label: 'Recovery phrase',
+      label: '복구 구절',
       errors: {
-        invalidPhrase: 'Recovery phrase does not match',
+        invalidPhrase: '복구 구절이 일치하지 않습니다',
       },
     },
-    clearButton: 'Clear',
-    confirmButton: 'Confirm',
+    clearButton: '지우기',
+    confirmButton: '확인',
   },
   RestoreWalletScreen: {
-    title: 'Restore wallet',
+    title: '지갑 복구',
     instructions:
-      'To restore your wallet please provide the recovery phrase you ' +
-      'received when you created your wallet for the first time.',
+      '지갑을 복구하기 위해서 최초 지갑 생성시 받은 복구 구절을 ' +
+      '입력하여 주십시오.',
     mnemonicInput: {
-      label: 'Recovery phrase',
+      label: '복구 구절',
       errors: {
-        TOO_LONG: 'Phrase is too long. ',
-        TOO_SHORT: 'Phrase is too short. ',
-        INVALID_CHECKSUM: 'Please enter valid mnemonic.',
+        TOO_LONG: '구절이 너무 깁니다. ',
+        TOO_SHORT: '구절이 너무 짧습니다. ',
+        INVALID_CHECKSUM: '유효한 부호를 입력해 주십시오.',
         UNKNOWN_WORDS: (words: Array<string>) => {
           const wordlist = words.map((word) => `'${word}'`).join(', ')
           const areInvalid = `${pluralizeEn(words.length, 'is', 'are')} invalid`
@@ -393,39 +393,39 @@ const l10n = {
         },
       },
     },
-    restoreButton: 'Restore wallet',
+    restoreButton: '지갑 복구',
   },
   SettingsScreen: {
     WalletTab: {
-      title: 'Settings',
-      tabTitle: 'Wallet',
+      title: '설정',
+      tabTitle: '지갑',
 
-      switchWallet: 'Switch wallet',
-      logout: 'Logout',
+      switchWallet: '지갑 교체',
+      logout: '로그아웃',
 
-      walletName: 'Wallet name',
+      walletName: '지갑명',
 
-      security: 'Security',
-      changePassword: 'Change password',
-      easyConfirmation: 'Easy transaction confirmation',
+      security: '안전',
+      changePassword: '비밀번호 변경',
+      easyConfirmation: '간편 거래 확인',
 
-      removeWallet: 'Remove wallet',
+      removeWallet: '지갑 삭제',
     },
     ApplicationTab: {
-      title: 'Settings',
-      tabTitle: 'Application',
+      title: '설정',
+      tabTitle: '어플리케이션'
 
-      language: 'Your language',
+      language: '언어',
 
-      security: 'Security',
-      changePin: 'Change PIN',
-      biometricsSignIn: 'Sign in with your biometrics',
+      security: '안전',
+      changePin: 'PIN 변경',
+      biometricsSignIn: '생체인식을 이용하여 가입',
 
-      crashReporting: 'Crash reporting',
+      crashReporting: '크래쉬 보고',
       crashReportingText:
-        'Send crash reports to Emurgo. ' +
-        'Changes to this option will be reflected ' +
-        ' after restarting the application.',
+        'EMURGO로 크래쉬 보고서 보내기. ' +
+        '옵션 변경이 반영됩니다 ' +
+        ' 어플리캐이션 재작동 후.',
 
       termsOfUse: 'Terms of Use',
       support: 'Support',
