@@ -291,8 +291,8 @@ const l10n = {
     errorBanners: {
       // note: offline banner is shared with TransactionHistory
       networkError:
-        'We are experiencing issues with fetching your current balance. ' +
-        'クリックしてリトライ.',
+        '残高を表示できません。 ' +
+        'クリックして再試行',
       pendingOutgoingTransaction:
         '既存のトランザクションが進行中の時は、 ' +
         '新しいトランザクションを行えません。',
@@ -331,14 +331,14 @@ const l10n = {
     infoText:
       'このアドレスを共有して支払いを受ける. ' +
       'プライバシー保護のため、 ' +
-      '新しいアドレスが毎回自動生成されます。.',
+      '新しいアドレスが毎回自動生成されます。',
     generateButton: '他のアドレスを生成する。',
     cannotGenerate: 'You have to use some of your addresses',
     freshAddresses: 'Fresh addresses',
     usedAddresses: '使用されたアドレス',
   },
   AddressDetailsModal: {
-    walletAddress: 'あなたのウォレットのアドレス,
+    walletAddress: 'あなたのウォレットのアドレス',
     BIP32path: 'BIP32 path:',
     copyLabel: 'アドレスをコピーする',
     copiedLabel: 'コピーされました',
@@ -347,7 +347,7 @@ const l10n = {
     title: '復元フレーズ',
     mnemonicNote:
       'この復元フレーズは、どこか安全なところに ' +
-      '必ず控えてください。 ' +
+      '必ず書き留めてください。 ' +
       'ウォレットの使用及び復元には、復元フレーズが必要です。 ' +
       ' フレーズの大文字小文字を区別してください。',
     confirmationButton: '復元フレーズを書き留めました。',
@@ -378,7 +378,7 @@ const l10n = {
     confirmButton: '承認',
   },
   RestoreWalletScreen: {
-    title: 'ウォレットの復元,
+    title: 'ウォレットの復元',
     instructions:
       'ウォレットの復元には、復元フレーズが必要です。' +
       '復元フレーズは、一回目に使用したときに作成されたものです。',
@@ -388,7 +388,7 @@ const l10n = {
       errors: {
         TOO_LONG: 'フレーズが長すぎます。 ',
         TOO_SHORT: 'フレーズが短すぎます。 ',
-        INVALID_CHECKSUM: '有効な復元フレーズを入力してください。.',
+        INVALID_CHECKSUM: '有効な復元フレーズを入力してください。',
         UNKNOWN_WORDS: (words: Array<string>) => {
           const wordlist = words.map((word) => `'${word}'`).join(', ')
           const areInvalid = `${pluralizeEn(words.length, 'is', 'are')} invalid`
@@ -426,7 +426,7 @@ const l10n = {
 
       crashReporting: 'クラッシュ報告',
       crashReportingText:
-        'Emurgoにクラッシュレポートを送る. ' +
+        'Emurgoにクラッシュレポートを送る。 ' +
         'Changes to this option will be reflected ' +
         ' after restarting the application.',
 
