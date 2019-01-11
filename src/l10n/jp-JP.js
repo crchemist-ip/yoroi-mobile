@@ -69,12 +69,12 @@ const l10n = {
     },
     incorrectPin: {
       title: 'PINが無効です。',
-      メッセージ:「入力した PIN が正しくありません 。'、
+      message: '入力したPINが間違っています。',
       yesButton: common.ok,
     },
     incorrectPassword: {
       title: 'パスワードが間違っています。',
-      メッセージ:「入力したパスワードが間違っています 。'、
+      message: 'パスワードが間違っています。.',
       yesButton: common.ok,
     },
     biometricsIsTurnedOff: {
@@ -557,9 +557,10 @@ const l10n = {
         '簡易トランザクション承認とは、指紋認証や顔認証 ' +
         'を用いて、ADAのトランザクションを行うものです。 ' +
         　 ' +
-        'これによってセキュリティが弱くなります。 This is a compromise ' +
-        'between UX and security!',
-      warning:
+        'これによってセキュリティが弱くなります。 セキュリティと使いやすさ' +
+
+        'どっちを重要視するかという選択になります。',
+      注意:
         'Please remember your master password, as you may need it ' +
         'in case your biometrics data are removed from the device.',
       masterPassword: 'Master password',
