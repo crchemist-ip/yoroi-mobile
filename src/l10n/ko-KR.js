@@ -352,10 +352,10 @@ const l10n = {
     confirmationButton: '위 내용을 확인했습니다',
   },
   MnemonicBackupImportanceModal: {
-    title: 'Recovery phrase',
+    title: '복구 구절',
     keysStorageCheckbox:
-      'I understand that my secret keys are held securely ' +
-      'on this device only, not on the company`s servers',
+      '사용자의 비밀키가 회사 서버가 아닌 개인 장치에만 ' +
+      '안전하게 보관되는 것을 이해하였습니다',
     newDeviceRecoveryCheckbox:
       'I understand that if this application is moved to another device ' +
       'or delete, my money can be only recovered with the backup phrase that ' +
