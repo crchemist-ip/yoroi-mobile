@@ -388,8 +388,8 @@ const l10n = {
         INVALID_CHECKSUM: 'Пожалуйста, введите верную мнемоническую фразу.',
         UNKNOWN_WORDS: (words: Array<string>) => {
           const wordlist = words.map((word) => `'${word}'`).join(', ')
-          const areInvalid = `${pluralizeEn(words.length, 'is', 'are')} invalid`
-          return `${wordlist} ${areInvalid}`
+          const areInvalid = `недействительны`
+          return `${неверный} ${список слов}`
         },
       },
     },
